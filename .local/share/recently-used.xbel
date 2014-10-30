@@ -30,12 +30,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///var/www/html/registration/index.php" added="2014-10-30T19:16:15Z" modified="2014-10-30T19:16:15Z" visited="2014-10-30T19:16:15.954551Z">
+  <bookmark href="file:///var/www/html/registration/index.php" added="2014-10-30T19:16:15Z" modified="2014-10-30T19:16:15Z" visited="2014-10-30T19:16:15Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/x-php"/>
         <bookmark:applications>
           <bookmark:application name="emacs" exec="&apos;emacs %u&apos;" modified="2014-10-30T19:16:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/web.config" added="2014-10-30T19:46:59Z" modified="2014-10-30T19:46:59Z" visited="2014-10-30T19:46:59.924853Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="emacs" exec="&apos;emacs %u&apos;" modified="2014-10-30T19:46:59Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
