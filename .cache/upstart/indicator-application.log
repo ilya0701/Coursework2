@@ -1,0 +1,18 @@
+
+(process:1636): indicator-application-service-WARNING **: Unable to get watcher name 'org.kde.StatusNotifierWatcher'
+
+(process:1636): indicator-application-service-WARNING **: Name Lost
+
+(process:1694): indicator-application-service-WARNING **: Unable to get watcher name 'org.kde.StatusNotifierWatcher'
+
+(process:1694): indicator-application-service-WARNING **: Name Lost
+
+(process:1698): indicator-application-service-WARNING **: Unable to get watcher name 'org.kde.StatusNotifierWatcher'
+
+(process:1698): indicator-application-service-WARNING **: Name Lost
+
+(process:1635): indicator-application-service-WARNING **: Name Lost
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+
+(process:1688): indicator-application-service-WARNING **: Name Lost
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.

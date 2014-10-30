@@ -1,0 +1,151 @@
+status: 200
+content-length: 4503
+via: 1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: http://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/en/ubuntu/trusty/any/gnome-terminal/page/1/helpful/
+x-cache: HIT from papeda.canonical.com
+age: 120
+expires: Thu, 30 Oct 2014 18:01:23 GMT
+vary: Accept
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Thu, 30 Oct 2014 17:56:23 GMT
+connection: close
+cache-control: max-age=300
+date: Thu, 30 Oct 2014 17:56:23 GMT
+content-type: application/json; charset=utf-8
+x-cache-lookup: HIT from papeda.canonical.com:3128
+
+[
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Terminal", 
+        "language": "en", 
+        "reviewer_username": "wkt55555", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "very much !", 
+        "date_deleted": null, 
+        "summary": "I like it", 
+        "version": "3.6.2-0ubuntu1", 
+        "id": 85387, 
+        "date_created": "2014-03-18 01:13:49", 
+        "reviewer_displayname": "WeiKeTing", 
+        "package_name": "gnome-terminal", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Terminal", 
+        "language": "en", 
+        "reviewer_username": "bonkhead44", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "5/5 it comes with pretty much every version of ubuntu", 
+        "date_deleted": null, 
+        "summary": "10/10 if i could", 
+        "version": "3.6.2-0ubuntu1", 
+        "id": 89086, 
+        "date_created": "2014-07-20 23:16:13", 
+        "reviewer_displayname": "John Philips", 
+        "package_name": "gnome-terminal", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Terminal", 
+        "language": "en", 
+        "reviewer_username": "nysNeHh", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "Linux necomers, learn the Terminal - it's incredibly powerful and fun to learn. ", 
+        "date_deleted": null, 
+        "summary": "5/5 Stars", 
+        "version": "3.6.2-0ubuntu1", 
+        "id": 89203, 
+        "date_created": "2014-07-25 01:52:49", 
+        "reviewer_displayname": "Christopher Ingram", 
+        "package_name": "gnome-terminal", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Terminal", 
+        "language": "en", 
+        "reviewer_username": "f73NM8z", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "sir plese help me my terminal is not opening by default keys that is Alt+Ctrl+T.i really need it so please help.\n", 
+        "date_deleted": null, 
+        "summary": "please help", 
+        "version": "3.6.2-0ubuntu1", 
+        "id": 89303, 
+        "date_created": "2014-07-29 09:40:32", 
+        "reviewer_displayname": "siva sandeep reddy", 
+        "package_name": "gnome-terminal", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Terminal", 
+        "language": "en", 
+        "reviewer_username": "L8Q8Kt8", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "it's best", 
+        "date_deleted": null, 
+        "summary": "best terminal", 
+        "version": "3.6.2-0ubuntu1", 
+        "id": 90825, 
+        "date_created": "2014-09-28 08:54:01", 
+        "reviewer_displayname": "mr.dp", 
+        "package_name": "gnome-terminal", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Terminal", 
+        "language": "en", 
+        "reviewer_username": "zarinfam-s", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "Very usful and powerful terminal.", 
+        "date_deleted": null, 
+        "summary": "Very usful and powerful terminal", 
+        "version": "3.6.2-0ubuntu1", 
+        "id": 89643, 
+        "date_created": "2014-08-12 09:55:18", 
+        "reviewer_displayname": "Saeed Zarinfam", 
+        "package_name": "gnome-terminal", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 4, 
+        "hide": false, 
+        "app_name": "Terminal", 
+        "language": "en", 
+        "reviewer_username": "YmW3b7P", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "From running installations to moving files. This is just awesome.", 
+        "date_deleted": null, 
+        "summary": "Opens up the world", 
+        "version": "3.6.2-0ubuntu1", 
+        "id": 87841, 
+        "date_created": "2014-06-08 02:16:42", 
+        "reviewer_displayname": "Kushal Ashok", 
+        "package_name": "gnome-terminal", 
+        "distroseries": "trusty"
+    }
+]

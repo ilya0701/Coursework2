@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///boot/grub/grub.cfg" added="2014-10-30T18:12:04Z" modified="2014-10-30T18:12:04Z" visited="2014-10-30T18:12:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2014-10-30T18:12:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///etc/default/grub" added="2014-10-30T18:15:08Z" modified="2014-10-30T18:27:46Z" visited="2014-10-30T18:15:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2014-10-30T18:27:46Z" count="3"/>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2014-10-30T18:26:40Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/www/html/registration/index.php" added="2014-10-30T19:16:15Z" modified="2014-10-30T19:16:15Z" visited="2014-10-30T19:16:15.954551Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-php"/>
+        <bookmark:applications>
+          <bookmark:application name="emacs" exec="&apos;emacs %u&apos;" modified="2014-10-30T19:16:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

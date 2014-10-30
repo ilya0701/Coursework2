@@ -1,0 +1,47 @@
+Activating service name='org.a11y.atspi.Registry'
+Successfully activated service 'org.a11y.atspi.Registry'
+SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+
+** (at-spi2-registryd:1358): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (at-spi2-registryd:1358): WARNING **: Unable to register client with session manager
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 37 requests (37 known processed) with 0 events remaining.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+Activating service name='org.a11y.atspi.Registry'
+Successfully activated service 'org.a11y.atspi.Registry'
+SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+
+** (at-spi2-registryd:1358): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (at-spi2-registryd:1358): WARNING **: Unable to register client with session manager
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 21 requests (21 known processed) with 0 events remaining.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+Activating service name='org.a11y.atspi.Registry'
+Successfully activated service 'org.a11y.atspi.Registry'
+SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+
+** (at-spi2-registryd:1349): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (at-spi2-registryd:1349): WARNING **: Unable to register client with session manager
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 21 requests (21 known processed) with 0 events remaining.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+Activating service name='org.a11y.atspi.Registry'
+Successfully activated service 'org.a11y.atspi.Registry'
+SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+
+** (at-spi2-registryd:1355): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (at-spi2-registryd:1355): WARNING **: Unable to register client with session manager
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 21 requests (21 known processed) with 0 events remaining.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+Activating service name='org.a11y.atspi.Registry'
+Successfully activated service 'org.a11y.atspi.Registry'
+SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+
+** (at-spi2-registryd:1341): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (at-spi2-registryd:1341): WARNING **: Unable to register client with session manager

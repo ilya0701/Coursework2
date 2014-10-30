@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="en-us" xml:lang="en-us">
+<head>
+    <title>UCLMoodle: My home</title>
+    <link rel="shortcut icon" href="https://moodle.ucl.ac.uk/theme/image.php/ucl/theme/1413280547/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, UCLMoodle: My home" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/moodle.ucl.ac.uk","sesskey":"C9IfxqXbvq","loadingicon":"https:\/\/moodle.ucl.ac.uk\/theme\/image.php\/ucl\/core\/1413280547\/i\/loading_small","themerev":"1413280547","slasharguments":1,"theme":"ucl","jsrev":"1413274528","svgicons":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''};if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else me.path=component+'/'+component+'.'+me.type};
+YUI_config = {"debug":false,"base":"https:\/\/moodle.ucl.ac.uk\/lib\/yuilib\/3.13.0\/","comboBase":"https:\/\/moodle.ucl.ac.uk\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/moodle.ucl.ac.uk\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/moodle.ucl.ac.uk\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/moodle.ucl.ac.uk\/theme\/yui_combo.php?m\/1413274528\/","combine":true,"comboBase":"https:\/\/moodle.ucl.ac.uk\/theme\/yui_combo.php?","ext":false,"root":"m\/1413274528\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-formchangechecker":{"requires":["base","event-focus"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-calendar-eventmanager":{"requires":["base","node","event-mouseenter","overlay","moodle-calendar-eventmanager-skin"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-mod_hsuforum-livelog":{"requires":["widget"]},"moodle-mod_hsuforum-article":{"requires":["base","node","event","router","yui2-menu","core_rating","querystring","moodle-mod_hsuforum-io","moodle-mod_hsuforum-livelog","moodle-core-formchangechecker"]},"moodle-mod_hsuforum-io":{"requires":["base","io-base","io-form","io-upload-iframe","json-parse"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-block_navigation-navigation":{"requires":["base","io-base","node","event-synthetic","event-delegate","json-parse"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-notification-alert"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-theme_bootstrapbase-bootstrap":{"requires":["node","selector-css3"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/moodle.ucl.ac.uk\/lib\/javascript.php\/1413274528\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<link rel="stylesheet" type="text/css" href="https://moodle.ucl.ac.uk/theme/yui_combo.php?rollup/3.13.0/yui-moodlesimple-min.css" /><script type="text/javascript" src="https://moodle.ucl.ac.uk/theme/yui_combo.php?rollup/3.13.0/yui-moodlesimple-min.js"></script><script type="text/javascript" src="https://moodle.ucl.ac.uk/theme/yui_combo.php?rollup/1413274528/mcore-min.js"></script><script type="text/javascript" src="https://moodle.ucl.ac.uk/theme/jquery.php/core/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="https://moodle.ucl.ac.uk/theme/jquery.php/theme_ucl/cslider_1.0.js"></script>
+<script type="text/javascript" src="https://moodle.ucl.ac.uk/theme/jquery.php/theme_ucl/custom_1.0.js"></script>
+<script type="text/javascript" src="https://moodle.ucl.ac.uk/theme/jquery.php/theme_ucl/bootstrap_plugins/alert_2.3.2.js"></script>
+<script type="text/javascript" src="https://moodle.ucl.ac.uk/theme/jquery.php/theme_ucl/bootstrap_plugins/carousel_2.3.2.js"></script>
+<script type="text/javascript" src="https://moodle.ucl.ac.uk/theme/jquery.php/theme_ucl/bootstrap_plugins/collapse_2.3.2.js"></script>
+<script type="text/javascript" src="https://moodle.ucl.ac.uk/theme/jquery.php/theme_ucl/bootstrap_plugins/modal_2.3.2.js"></script>
+<script type="text/javascript" src="https://moodle.ucl.ac.uk/theme/jquery.php/theme_ucl/bootstrap_plugins/scrollspy_2.3.2.js"></script>
+<script type="text/javascript" src="https://moodle.ucl.ac.uk/theme/jquery.php/theme_ucl/bootstrap_plugins/tab_2.3.2.js"></script>
+<script type="text/javascript" src="https://moodle.ucl.ac.uk/theme/jquery.php/theme_ucl/bootstrap_plugins/tooltip_2.3.2.js"></script>
+<script type="text/javascript" src="https://moodle.ucl.ac.uk/theme/jquery.php/theme_ucl/bootstrap_plugins/transition_2.3.2.js"></script>
+<script type="text/javascript" src="https://moodle.ucl.ac.uk/theme/jquery.php/theme_ucl/modernizr_2.6.2.js"></script>
+<script type="text/javascript" src="https://moodle.ucl.ac.uk/theme/jquery.php/theme_ucl/ba-floatingscrollbar.js"></script>
+<script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://moodle.ucl.ac.uk/theme/styles.php/ucl/1413280547/all" />
+<script type="text/javascript" src="https://moodle.ucl.ac.uk/lib/javascript.php/1413274528/lib/javascript-static.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google web fonts -->
+    <link href="//fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">
+    <!-- iOS Homescreen Icons -->
+    
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://moodle.ucl.ac.uk/theme/image.php/ucl/theme/1413280547/homeicon/iphone" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://moodle.ucl.ac.uk/theme/image.php/ucl/theme/1413280547/homeicon/ipad" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://moodle.ucl.ac.uk/theme/image.php/ucl/theme/1413280547/homeicon/iphone_retina" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://moodle.ucl.ac.uk/theme/image.php/ucl/theme/1413280547/homeicon/ipad_retina" />    <script type = "text/javascript">
+    $(document).ready(function() {
+    
+        $('input[type="text"]#coursesearchbox').each(function(){
+        	 
+            this.value = $(this).attr('title');
+            $(this).addClass('text-label');
+         
+            $(this).focus(function(){
+                if(this.value == $(this).attr('title')) {
+                    this.value = '';
+                    $(this).removeClass('text-label');
+                }
+            });
+         
+            $(this).blur(function(){
+                if(this.value == '') {
+                    this.value = $(this).attr('title');
+                    $(this).addClass('text-label');
+                }
+            });
+        });
+      });
+    
+    </script>
+</head>
+
+<body  id="page-my-index" class="format-site  path-my gecko dir-ltr lang-en_us yui-skin-sam yui3-skin-sam moodle-ucl-ac-uk pagelayout-mydashboard course-1 context-1 three-column ucl-colours-default has-region-content used-region-content has-region-side-pre used-region-side-pre has-region-side-post used-region-side-post has-region-footer-left empty-region-footer-left has-region-footer-middle empty-region-footer-middle has-region-footer-right empty-region-footer-right layout-option-langmenu">
+
+<div class="skiplinks"><a class="skip" href="#maincontent">Skip to main content</a></div>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+
+	<header id="page-header" class="clearfix">
+
+    <div class="container-fluid">
+    
+    <div class="row-fluid-small">
+    	<div class="span12">
+    		<h1 id="title">UCL Moodle</h1>
+    		<div class="logo-background-small">
+        		        		<div class="logo-small">
+        			<a class="logo-link-small" href="http://www.ucl.ac.uk"></a>
+        		</div>
+        	</div>
+    	</div>
+    </div>
+    
+    <div class="row-fluid">
+    <!-- HEADER: LOGO AREA -->
+       
+        <div class="span9">
+            <h1 id="title">UCL Moodle</h1>
+        </div> <!-- class="span9" -->
+        <div class="span3">
+        	<div class="logo-background">
+        	        		<div class="logo">
+        			<a class="logo-link" href="http://www.ucl.ac.uk"></a>
+        		</div>
+        	</div>
+        </div>
+
+            </div>
+</header>
+
+<header role="banner" class="navbar navbar">
+    <nav role="navigation" class="navbar-inner">
+        <div class="container-fluid">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <div class="nav-collapse collapse">
+                <ul class="nav"><li class="dropdown"><a href="#cm_submenu_1" class="dropdown-toggle" data-toggle="dropdown" title="Staff Help">Staff Help<b class="caret"></b></a><ul class="dropdown-menu"><li><a title="Login Problems?" href="https://wiki.ucl.ac.uk/display/MoodleResourceCentre/Moodle+Staff+FAQs#MoodleStaffFAQs-HowdoIlogin%3F "target=\"_blank">Login Problems?</a><li><a title="Moodle Resource Centre" href="https://wiki.ucl.ac.uk/display/MoodleResourceCentre/Guides+to+using+Moodle+for+staff" target=\"_blank "target=\"_blank">Moodle Resource Centre</a><li><a title="About Moodle at UCL" href="http://www.ucl.ac.uk/isd/staff/e-learning/core-tools/moodle/about "target=\"_blank">About Moodle at UCL</a><li><a title="FAQs" href="https://wiki.ucl.ac.uk/display/MoodleResourceCentre/Moodle+Staff+FAQs "target=\"_blank">FAQs</a><li><a title="Request a Moodle Course" href="http://www.ucl.ac.uk/isd-extra/staff/e-learning/tools/moodle/newcourse.php "target=\"_blank">Request a Moodle Course</a><li><a title="Request Portico Enrolments" href="http://www.ucl.ac.uk/isd-extra/staff/e-learning/tools/moodle/portico_enrolments.php "target=\"_blank">Request Portico Enrolments</a><li><a title="Moodle Exam Notification" href="http://www.ucl.ac.uk/isd-extra/staff/e-learning/tools/moodle/exam.php "target=\"_blank">Moodle Exam Notification</a><li><a title="Moodle Training" href="https://www.ucl.ac.uk/isd/services/learning-teaching/elearning-staff/training "target=\"_blank">Moodle Training</a><li><a title="Contact Moodle Support" href="http://www.ucl.ac.uk/isd-extra/staff/e-learning/support/ "target=\"_blank">Contact Moodle Support</a><li><a title="UCL Moodle User Group" href="http://moodle.ucl.ac.uk/course/view.php?id=46">UCL Moodle User Group</a></ul><li class="dropdown"><a href="#cm_submenu_2" class="dropdown-toggle" data-toggle="dropdown" title="Student Help">Student Help<b class="caret"></b></a><ul class="dropdown-menu"><li><a title="Login Problems?" href="https://wiki.ucl.ac.uk/display/ELearningStudentSupport/Moodle+FAQs#MoodleFAQs-Whycan%27tIlogontoUCLMoodlewithmyUCLusernameandpassword%3F "target=\"_blank">Login Problems?</a><li><a title="Moodle Quick Start Guide" href="https://wiki.ucl.ac.uk/display/ELearningStudentSupport/Moodle+Quick+Start+Guide+for+Students "target=\"_blank">Moodle Quick Start Guide</a><li><a title="Turnitin Guide" href="https://wiki.ucl.ac.uk/x/YgKmAQ "target=\"_blank">Turnitin Guide</a><li><a title="Learning with Technology" href="https://moodle.ucl.ac.uk/course/view.php?id=7434">Learning with Technology</a><li><a title="Plagiarism and Academic Writing" href="http://moodle.ucl.ac.uk/course/view.php?id=12731">Plagiarism and Academic Writing</a><li><a title="Subject area Study Skills" href="https://moodle.ucl.ac.uk/course/category.php?id=70">Subject area Study Skills</a><li><a title="IT training for Students" href="http://www.ucl.ac.uk/isd/students/training "target=\"_blank">IT training for Students</a><li><a title="FAQs" href="https://wiki.ucl.ac.uk/display/ELearningStudentSupport/Moodle+FAQs "target=\"_blank">FAQs</a><li><a title="More student links" href="http://www.ucl.ac.uk/students "target=\"_blank">More student links</a></ul><li class="dropdown"><a href="#cm_submenu_3" class="dropdown-toggle" data-toggle="dropdown" title="Services">Services<b class="caret"></b></a><ul class="dropdown-menu"><li><a title="Moodle Archive" href="https://moodle-archive.ucl.ac.uk/ "target=\"_blank">Moodle Archive</a><li><a title="Portico" href="http://www.ucl.ac.uk/portico "target=\"_blank">Portico</a><li><a title="Common Timetable" href="http://www.ucl.ac.uk/timetable "target=\"_blank">Common Timetable</a><li><a title="Library" href="http://www.ucl.ac.uk/library "target=\"_blank">Library</a><li><a title="MyAccount" href="https://myaccount.ucl.ac.uk/ "target=\"_blank">MyAccount</a><li><a title="Live@UCL Email" href="http://outlook.com/live.ucl.ac.uk "target=\"_blank">Live@UCL Email</a><li><a title="MyPortfolio" href="https://myportfolio.ucl.ac.uk "target=\"_blank">MyPortfolio</a></ul><li class="dropdown"><a href="https://moodle.ucl.ac.uk/my/index.php" class="dropdown-toggle" data-toggle="dropdown" title="My Courses"><i class="fa fa-briefcase"></i>My Courses<b class="caret"></b></a><ul class="dropdown-menu"><li><a title="COMP2003" href="https://moodle.ucl.ac.uk/course/view.php?id=11511">COMP2003:Mathematics and Statistics</a><li><a title="COMP2007" href="https://moodle.ucl.ac.uk/course/view.php?id=753">COMP2007: Networking and Concurrency</a><li><a title="COMP2008/GC04" href="https://moodle.ucl.ac.uk/course/view.php?id=367">COMP2008/GC04: Databases 1</a><li><a title="COMP2009HCI" href="https://moodle.ucl.ac.uk/course/view.php?id=823">COMP2009HCI: Software Engineering and Human Computer Interaction</a><li><a title="COMP2009SE" href="https://moodle.ucl.ac.uk/course/view.php?id=3527">COMP2009SE: Software Engineering</a><li><a title="COMP2010" href="https://moodle.ucl.ac.uk/course/view.php?id=10783">COMP2010: Compilers</a><li><a title="COMP2013" href="https://moodle.ucl.ac.uk/course/view.php?id=18729">COMP2013: Systems Engineering I</a><li><a title="COMP2014" href="https://moodle.ucl.ac.uk/course/view.php?id=18732">COMP2014: Systems Engineering II</a><li><a title="COMP6006" href="https://moodle.ucl.ac.uk/course/view.php?id=4435">COMP6006: Financial Computing </a><li><a title="Engineering Careers and Events" href="https://moodle.ucl.ac.uk/course/view.php?id=21108">Engineering Careers and Events</a></ul></ul>                <ul class="nav pull-right">
+                    <li></li>
+                    <li class="navbar-text"><div class="logininfo">You are logged in as <a href="https://moodle.ucl.ac.uk/user/profile.php?id=275928" title="View profile">Ilya Rassoshenko</a> (<a href="https://moodle.ucl.ac.uk/login/logout.php?sesskey=C9IfxqXbvq">Log out</a>)</div></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Start Main Regions -->
+<div id="page" class="container-fluid">
+	<div id="page-navbar" class="clearfix">
+		<div class="row-fluid">
+			<div class="span9">
+    			<div class="row-fluid">
+    				<div class="breadcrumb-nav span4"><span class="accesshide">Page path</span><ul class="breadcrumb"><li><a href="https://moodle.ucl.ac.uk/my/">My home</a> <span class="divider"> <span class="accesshide " ><span class="arrow_text">/</span>&nbsp;</span><span class="arrow sep">&#x25BA;</span> </span></li><li><a href="https://moodle.ucl.ac.uk/my/">My courses</a></li></ul></div>
+        			<div class="span8">
+        				<div class="searchcontainer pull-right">
+                        	<form method="get" action="/course/search.php">
+                                 <input title="Search for a course" type="text"
+                                     value="" name="search" size="25" id="coursesearchbox">
+                                 <input type="submit" value="" class="ucl-search-submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="span3">
+				<nav class="breadcrumb-button"></nav>
+			</div>
+		</div>
+	</div>
+    <div id="page-content" class="row-fluid">
+        <div id="region-bs-main-and-pre" class="span9">
+            <div class="row-fluid">      	
+                <section id="region-main" class="span8 pull-right">
+                	<div class="clearfix"></div>
+                	<div role="main"><span id="maincontent"></span><aside id="block-region-content" class="block-region" data-blockregion="content" data-droptarget="1"><a href="#sb-1" class="skip-block">Skip My courses</a><div id="inst321081" class="block_course_list  block list_block" role="navigation" data-block="course_list" data-instanceid="321081" aria-labelledby="instance-321081-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-321081-header">My courses</h2></div></div><div class="content"><ul class="unlist"><li class="r0"><div class="column c1"><a  title="COMP2003" href="https://moodle.ucl.ac.uk/course/view.php?id=11511"><img src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/course" class="icon" alt="" />COMP2003:Mathematics and Statistics</a></div></li>
+<li class="r1"><div class="column c1"><a  title="COMP2007" href="https://moodle.ucl.ac.uk/course/view.php?id=753"><img src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/course" class="icon" alt="" />COMP2007: Networking and Concurrency</a></div></li>
+<li class="r0"><div class="column c1"><a  title="COMP2008/GC04" href="https://moodle.ucl.ac.uk/course/view.php?id=367"><img src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/course" class="icon" alt="" />COMP2008/GC04: Databases 1</a></div></li>
+<li class="r1"><div class="column c1"><a  title="COMP2009HCI" href="https://moodle.ucl.ac.uk/course/view.php?id=823"><img src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/course" class="icon" alt="" />COMP2009HCI: Software Engineering and Human Computer Interaction</a></div></li>
+<li class="r0"><div class="column c1"><a  title="COMP2009SE" href="https://moodle.ucl.ac.uk/course/view.php?id=3527"><img src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/course" class="icon" alt="" />COMP2009SE: Software Engineering</a></div></li>
+<li class="r1"><div class="column c1"><a  title="COMP2010" href="https://moodle.ucl.ac.uk/course/view.php?id=10783"><img src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/course" class="icon" alt="" />COMP2010: Compilers</a></div></li>
+<li class="r0"><div class="column c1"><a  title="COMP2013" href="https://moodle.ucl.ac.uk/course/view.php?id=18729"><img src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/course" class="icon" alt="" />COMP2013: Systems Engineering I</a></div></li>
+<li class="r1"><div class="column c1"><a  title="COMP2014" href="https://moodle.ucl.ac.uk/course/view.php?id=18732"><img src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/course" class="icon" alt="" />COMP2014: Systems Engineering II</a></div></li>
+<li class="r0"><div class="column c1"><a  title="COMP6006" href="https://moodle.ucl.ac.uk/course/view.php?id=4435"><img src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/course" class="icon" alt="" />COMP6006: Financial Computing </a></div></li>
+<li class="r1"><div class="column c1"><a  title="Engineering Careers and Events" href="https://moodle.ucl.ac.uk/course/view.php?id=21108"><img src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/course" class="icon" alt="" />Engineering Careers and Events</a></div></li></ul><div class="footer"><a href="https://moodle.ucl.ac.uk/course/index.php">All courses</a> ...</div></div></div><span id="sb-1" class="skip-block-to"></span></aside></div>                </section>
+                <aside id="block-region-side-pre" class="span4 desktop-first-column block-region" data-blockregion="side-pre" data-droptarget="1"><a href="#sb-2" class="skip-block">Skip Logged in user</a><div id="inst422789" class="block_myprofile  block" role="complementary" data-block="myprofile" data-instanceid="422789" aria-labelledby="instance-422789-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-422789-header">Logged in user</h2></div></div><div class="content"><div class="myprofileitem picture"><a href="https://moodle.ucl.ac.uk/user/profile.php?id=275928"><img src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/u/f1" alt="Picture of Ilya Rassoshenko" title="Picture of Ilya Rassoshenko" class="profilepicture defaultuserpic" width="100" height="100" /></a></div><div class="myprofileitem fullname">Ilya Rassoshenko</div><div class="myprofileitem city">City/town: </div><div class="myprofileitem email"><a href="&#109;&#97;i&#108;&#116;o:%69%6cy%61%2er%61%73so%73%68%65n%6b%6f.%313@%75%63l%2e%61%63%2e%75%6b">&#105;l&#121;&#97;&#46;&#114;&#97;sso&#115;&#104;e&#110;k&#111;&#46;&#49;&#51;@&#117;c&#108;&#46;&#97;&#99;&#46;uk</a></div></div></div><span id="sb-2" class="skip-block-to"></span><a href="#sb-3" class="skip-block">Skip Latest news</a><div id="inst321090" class="block_news_items  block" role="complementary" data-block="news_items" data-instanceid="321090" aria-labelledby="instance-321090-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-321090-header">Latest news</h2></div></div><div class="content">
+<ul class='unlist'>
+<li class="post"><div class="head clearfix"><div class="date">3:25 PM,Oct 21</div><div class="name">Rod Digges</div></div><div class="info"><a href="https://moodle.ucl.ac.uk/mod/forum/discuss.php?d=451583">Lecturecast service outage</a></div></li>
+<li class="post"><div class="head clearfix"><div class="date">4:15 PM,Oct 20</div><div class="name">Zaman Wong</div></div><div class="info"><a href="https://moodle.ucl.ac.uk/mod/forum/discuss.php?d=458105">Moodle Archive Outage 1st – 4th November  2014</a></div></li>
+<li class="post"><div class="head clearfix"><div class="date">12:24 PM,Oct 14</div><div class="name">Domi C Sinclair</div></div><div class="info"><a href="https://moodle.ucl.ac.uk/mod/forum/discuss.php?d=446175">A new way of handling calls and emails to E-Learning Environments</a></div></li>
+</ul>
+<div class="footer"><a href="https://moodle.ucl.ac.uk/mod/forum/view.php?f=1">Older topics</a> ...<br /><a href="https://moodle.ucl.ac.uk/rss/file.php/171/b1c64b46d48b2a2f12f026194165a24c/mod_forum/1/rss.xml"><img src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/rss" title="RSS feed of posts" alt="RSS" /></a></div></div></div><span id="sb-3" class="skip-block-to"></span><a href="#sb-4" class="skip-block">Skip Calendar</a><div id="inst321093" class="block_calendar_month  block" role="complementary" data-block="calendar_month" data-instanceid="321093" aria-labelledby="instance-321093-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-321093-header">Calendar</h2></div></div><div class="content"><table class="minicalendar calendartable" summary="October 2014 Calendar"><caption><div class="calendar-controls"><a class="arrow_link previous" href="https://moodle.ucl.ac.uk/my/index.php?time=1409526000" title="Previous month"><span class="arrow ">&#x25C4;</span><span class="accesshide " >&nbsp;<span class="arrow_text">Previous month</span></span></a><span class="hide"> | </span><span class="current"><a title="This month" href="https://moodle.ucl.ac.uk/calendar/view.php?view=month&amp;time=1414694580&amp;course=1">October 2014</a></span><span class="hide"> | </span><a class="arrow_link next" href="https://moodle.ucl.ac.uk/my/index.php?time=1414800000" title="Next month"><span class="accesshide " ><span class="arrow_text">Next month</span>&nbsp;</span><span class="arrow ">&#x25BA;</span></a><span class="clearer"><!-- --></span>
+</div></caption><tr class="weekdays"><th scope="col"><abbr title="Monday">Mon</abbr></th>
+<th scope="col"><abbr title="Tuesday">Tue</abbr></th>
+<th scope="col"><abbr title="Wednesday">Wed</abbr></th>
+<th scope="col"><abbr title="Thursday">Thu</abbr></th>
+<th scope="col"><abbr title="Friday">Fri</abbr></th>
+<th scope="col"><abbr title="Saturday">Sat</abbr></th>
+<th scope="col"><abbr title="Sunday">Sun</abbr></th>
+</tr><tr><td class="dayblank">&nbsp;</td>
+<td class="dayblank">&nbsp;</td>
+<td class="day">1</td>
+<td class="day">2</td>
+<td class="day">3</td>
+<td class="weekend day">4</td>
+<td class="weekend day">5</td>
+</tr><tr><td class="day">6</td>
+<td class="day">7</td>
+<td class="day">8</td>
+<td class="day">9</td>
+<td class="day">10</td>
+<td class="weekend day">11</td>
+<td class="weekend day">12</td>
+</tr><tr><td class="day hasevent calendar_event_course calendar_event_course"><a id="calendar_tooltip_1" href="https://moodle.ucl.ac.uk/calendar/view.php?view=day&amp;time=1413154800#event_467783">13</a></td>
+<td class="day">14</td>
+<td class="day">15</td>
+<td class="day">16</td>
+<td class="day hasevent calendar_event_course calendar_event_course"><a id="calendar_tooltip_2" href="https://moodle.ucl.ac.uk/calendar/view.php?view=day&amp;time=1413500400#event_467037">17</a></td>
+<td class="weekend day">18</td>
+<td class="weekend day">19</td>
+</tr><tr><td class="day">20</td>
+<td class="day">21</td>
+<td class="day">22</td>
+<td class="day">23</td>
+<td class="day hasevent calendar_event_course calendar_event_course"><a id="calendar_tooltip_3" href="https://moodle.ucl.ac.uk/calendar/view.php?view=day&amp;time=1414105200#event_467039">24</a></td>
+<td class="weekend day">25</td>
+<td class="weekend day">26</td>
+</tr><tr><td class="day">27</td>
+<td class="day">28</td>
+<td class="day">29</td>
+<td class="day today eventnone"><span class="accesshide " >Today Thursday, October 30 </span><a id="calendar_tooltip_4" href="#">30</a></td>
+<td class="day">31</td>
+<td class="dayblank">&nbsp;</td><td class="dayblank">&nbsp;</td></tr></table></div></div><span id="sb-4" class="skip-block-to"></span><a href="#sb-5" class="skip-block">Skip My private files</a><div id="inst321039" class="block_private_files  block" role="complementary" data-block="private_files" data-instanceid="321039" aria-labelledby="instance-321039-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-321039-header">My private files</h2></div></div><div class="content"><div class="box generalbox">No files available</div><div class="footer"><a href="https://moodle.ucl.ac.uk/user/files.php?returnurl=https%3A%2F%2Fmoodle.ucl.ac.uk%2Fmy%2Findex.php">Manage my private files...</a></div></div></div><span id="sb-5" class="skip-block-to"></span><a href="#sb-6" class="skip-block">Skip Moodle Maintenance</a><div id="inst372216" class="block_html  block" role="complementary" data-block="html" data-instanceid="372216" aria-labelledby="instance-372216-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-372216-header">Moodle Maintenance</h2></div></div><div class="content"><div class="no-overflow"><p>Please note, UCL Moodle should be considered unavailable between 8am-9am with limited availability 9am-10am every Tuesday, as this is the window for scheduled maintenance. Please avoid planning activities during this time.</p>
+<p>For any further information please contact the <a href="http://www.ucl.ac.uk/isd/staff/staff/e-learning/ele">E-Learning Environments</a> team <a title="[GMCP] Compose a new mail to ele@ucl.ac.uk" href="mailto:ele@ucl.ac.uk">ele@ucl.ac.uk</a></p></div></div></div><span id="sb-6" class="skip-block-to"></span></aside>            </div>
+        </div>
+        <aside id="block-region-side-post" class="span3 block-region" data-blockregion="side-post" data-droptarget="1"><a href="#sb-7" class="skip-block">Skip Settings</a><div id="inst321036" class="block_settings  block" role="navigation" data-block="settings" data-instanceid="321036" aria-labelledby="instance-321036-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-321036-header">Settings</h2></div></div><div class="content"><div id="settingsnav" class="box block_tree_box"><ul class="block_tree list"><li class="type_unknown collapsed contains_branch" aria-expanded="false"><p class="tree_item branch root_node" id="usersettings"><span tabindex="0">My profile settings</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.ucl.ac.uk/user/edit.php?id=275928&amp;course=1"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />Edit profile</a></p></li>
+<li class="type_setting collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Portfolios</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.ucl.ac.uk/user/portfolio.php?courseid=1"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />Configure</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.ucl.ac.uk/user/portfoliologs.php?courseid=1"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />Transfer logs</a></p></li></ul></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.ucl.ac.uk/user/managetoken.php?sesskey=C9IfxqXbvq"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />Security keys</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.ucl.ac.uk/message/edit.php?id=275928"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />Messaging</a></p></li>
+<li class="type_unknown collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Blogs</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.ucl.ac.uk/blog/preferences.php"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />Preferences</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.ucl.ac.uk/blog/external_blogs.php"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />External blogs</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.ucl.ac.uk/blog/external_blog_edit.php"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />Register an external blog</a></p></li></ul></li>
+<li class="type_unknown collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Badges</span></p><ul><li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.ucl.ac.uk/badges/preferences.php"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />Preferences</a></p></li>
+<li class="type_setting collapsed item_with_icon"><p class="tree_item leaf"><a href="https://moodle.ucl.ac.uk/badges/mybackpack.php"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />Backpack settings</a></p></li></ul></li></ul></li></ul></div></div></div><span id="sb-7" class="skip-block-to"></span><a href="#sb-8" class="skip-block">Skip Navigation</a><div id="inst321033" class="block_navigation  block" role="navigation" data-block="navigation" data-instanceid="321033" aria-labelledby="instance-321033-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-321033-header">Navigation</h2></div></div><div class="content"><ul class="block_tree list"><li class="type_unknown depth_1 contains_branch" aria-expanded="true"><p class="tree_item branch navigation_node"><a href="https://moodle.ucl.ac.uk/my/">My home</a></p><ul><li class="type_setting depth_2 item_with_icon"><p class="tree_item leaf hasicon"><a href="https://moodle.ucl.ac.uk/?redirect=0"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />Site home</a></p></li>
+<li class="type_user depth_2 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">My profile</span></p><ul><li class="type_custom depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="https://moodle.ucl.ac.uk/user/profile.php?id=275928"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />View profile</a></p></li>
+<li class="type_custom depth_3 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Forum posts</span></p><ul><li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon"><a href="https://moodle.ucl.ac.uk/mod/forum/user.php?id=275928"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />Posts</a></p></li>
+<li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon"><a href="https://moodle.ucl.ac.uk/mod/forum/user.php?id=275928&amp;mode=discussions"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />Discussions</a></p></li></ul></li>
+<li class="type_unknown depth_3 collapsed contains_branch" aria-expanded="false"><p class="tree_item branch"><span tabindex="0">Blogs</span></p><ul><li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon"><a href="https://moodle.ucl.ac.uk/blog/index.php?userid=275928"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />View all of my entries</a></p></li>
+<li class="type_custom depth_4 item_with_icon"><p class="tree_item leaf hasicon"><a href="https://moodle.ucl.ac.uk/blog/edit.php?action=add"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />Add a new entry</a></p></li>
+<li class="type_setting depth_4 item_with_icon"><p class="tree_item leaf hasicon"><a href="https://moodle.ucl.ac.uk/rss/file.php/1/b1c64b46d48b2a2f12f026194165a24c/blog/user/275928/rss.xml"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/rss" />Blog RSS feed</a></p></li></ul></li>
+<li class="type_setting depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="https://moodle.ucl.ac.uk/message/index.php?user1=275928"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />Messages</a></p></li>
+<li class="type_setting depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="https://moodle.ucl.ac.uk/user/files.php"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />My private files</a></p></li>
+<li class="type_setting depth_3 item_with_icon"><p class="tree_item leaf hasicon"><a href="https://moodle.ucl.ac.uk/badges/mybadges.php"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />My badges</a></p></li></ul></li>
+<li class="type_system depth_2 contains_branch current_branch" aria-expanded="true"><p class="tree_item branch active_tree_node canexpand"><a href="https://moodle.ucl.ac.uk/my/">My courses</a></p><ul><li class="type_course depth_3 collapsed item_with_icon"><p class="tree_item leaf hasicon" id="expandable_branch_20_11511"><a title="COMP2003:Mathematics and Statistics" href="https://moodle.ucl.ac.uk/course/view.php?id=11511"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />COMP2003</a></p></li>
+<li class="type_course depth_3 collapsed item_with_icon"><p class="tree_item leaf hasicon" id="expandable_branch_20_753"><a title="COMP2007: Networking and Concurrency" href="https://moodle.ucl.ac.uk/course/view.php?id=753"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />COMP2007</a></p></li>
+<li class="type_course depth_3 collapsed item_with_icon"><p class="tree_item leaf hasicon" id="expandable_branch_20_367"><a title="COMP2008/GC04: Databases 1" href="https://moodle.ucl.ac.uk/course/view.php?id=367"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />COMP2008/GC04</a></p></li>
+<li class="type_course depth_3 collapsed item_with_icon"><p class="tree_item leaf hasicon" id="expandable_branch_20_823"><a title="COMP2009HCI: Software Engineering and Human Computer Interaction" href="https://moodle.ucl.ac.uk/course/view.php?id=823"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />COMP2009HCI</a></p></li>
+<li class="type_course depth_3 collapsed item_with_icon"><p class="tree_item leaf hasicon" id="expandable_branch_20_3527"><a title="COMP2009SE: Software Engineering" href="https://moodle.ucl.ac.uk/course/view.php?id=3527"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />COMP2009SE</a></p></li>
+<li class="type_course depth_3 collapsed item_with_icon"><p class="tree_item leaf hasicon" id="expandable_branch_20_10783"><a title="COMP2010: Compilers" href="https://moodle.ucl.ac.uk/course/view.php?id=10783"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />COMP2010</a></p></li>
+<li class="type_course depth_3 collapsed item_with_icon"><p class="tree_item leaf hasicon" id="expandable_branch_20_18729"><a title="COMP2013: Systems Engineering I" href="https://moodle.ucl.ac.uk/course/view.php?id=18729"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />COMP2013</a></p></li>
+<li class="type_course depth_3 collapsed item_with_icon"><p class="tree_item leaf hasicon" id="expandable_branch_20_18732"><a title="COMP2014: Systems Engineering II" href="https://moodle.ucl.ac.uk/course/view.php?id=18732"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />COMP2014</a></p></li>
+<li class="type_course depth_3 collapsed item_with_icon"><p class="tree_item leaf hasicon" id="expandable_branch_20_4435"><a title="COMP6006: Financial Computing " href="https://moodle.ucl.ac.uk/course/view.php?id=4435"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />COMP6006</a></p></li>
+<li class="type_course depth_3 collapsed item_with_icon"><p class="tree_item leaf hasicon" id="expandable_branch_20_21108"><a title="Engineering Careers and Events" href="https://moodle.ucl.ac.uk/course/view.php?id=21108"><img alt="" class="smallicon navicon" title="" src="https://moodle.ucl.ac.uk/theme/image.php/ucl/core/1413280547/i/navigationitem" />Engineering Careers and Events</a></p></li></ul></li></ul></li></ul></div></div><span id="sb-8" class="skip-block-to"></span></aside>    </div>
+    
+    <!-- End Main Regions -->
+
+	
+
+<p class="helplink"></p>
+<footer id="page-footer" class="wrapper container-fluid clearfix">
+
+		
+	<article class="block-myucl">
+		<h2>Facilities</h2>
+		<ul>
+			<li><a href="http://www.ucl.ac.uk/departments/faculties">Faculties and departments</a></li>
+			<li><a href="http://www.ucl.ac.uk/library/">Library</a></li>
+			<li><a href="http://www.ucl.ac.uk/museums">Museums and Collections</a></li>
+			<li><a href="http://www.thebloomsbury.com/">UCL Bloomsbury Theatre</a></li>
+			<li><a href="http://www.ucl.ac.uk/maps">Maps and buildings</a></li>
+		</ul>
+	</article>
+
+	<article class="block-finditfast1">
+		<h2>Locations</h2>
+		<ul>
+			<li><a href="http://www.ucl.ac.uk/london">UCL and London</a></li>
+			<li><a href="http://www.ucl.ac.uk/australia#">UCL Australia</a></li>
+			<li><a href="http://www.ucl.ac.uk/qatar">UCL Qatar</a></li>
+		</ul>
+	</article>
+
+	<article class="block-finditfast2">
+		<h2>Connect with us</h2>
+		<ul>
+			<li><a href="http://www.ucl.ac.uk/alumni">Alumni</a></li>
+			<li><a href="http://www.ucl.ac.uk/enterprise">Businesses</a></li>
+			<li><a href="http://www.ucl.ac.uk/media">Media Relations</a></li>
+			<li><a href="http://www.ucl.ac.uk/hr/jobs/">Jobs</a></li>
+			<li><a href="http://www.ucl.ac.uk/makeyourmark">Support us</a></li>
+		</ul>
+
+	</article>
+
+	<hr>
+
+	<p>University College London,&nbsp;Gower Street,&nbsp;London,&nbsp;WC1E 6BT&nbsp;Tel:&nbsp;+44&nbsp;(0)&nbsp;20 7679 2000</p>
+
+	<p id="footer-links">Copyright &copy; 2013 UCL <a href="http://www.ucl.ac.uk/disclaimer">Disclaimer</a> | <a href="http://www.ucl.ac.uk/foi">Freedom of Information</a> | <a href="http://www.ucl.ac.uk/accessibility">Accessibility</a> | <a href="http://www.ucl.ac.uk/privacy">Privacy</a> | <a href="http://www.ucl.ac.uk/cookies">Cookies</a> | <a href="http://www.ucl.ac.uk/contact-list">Contact Us</a></p>
+
+	<div class="usepolicy"><a href="//moodle.ucl.ac.uk/pluginfile.php/1/theme_ucl/usepolicy/1413280547/moodle%20usage%20ploicy.html" target="_blank">UCL Moodle usage policy and guidelines</a></div>
+	<div class="moodlepower">Powered by: Moodle 2.6</div>
+	
+</footer>	
+    <script type="text/javascript" src="https://moodle.ucl.ac.uk/theme/javascript.php/ucl/1413280547/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","ok":"OK","viewallcourses":"View all courses","morehelp":"More help","loadinghelp":"Loading...","cancel":"Cancel","yes":"Yes","confirm":"Confirm","no":"No","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmation":"Confirmation"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var navtreeexpansions321033 = [{"id":"expandable_branch_20_11511","key":"11511","type":20},{"id":"expandable_branch_20_753","key":"753","type":20},{"id":"expandable_branch_20_367","key":"367","type":20},{"id":"expandable_branch_20_823","key":"823","type":20},{"id":"expandable_branch_20_3527","key":"3527","type":20},{"id":"expandable_branch_20_10783","key":"10783","type":20},{"id":"expandable_branch_20_18729","key":"18729","type":20},{"id":"expandable_branch_20_18732","key":"18732","type":20},{"id":"expandable_branch_20_4435","key":"4435","type":20},{"id":"expandable_branch_20_21108","key":"21108","type":20}];
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+YUI().use('node', function(Y) {
+M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-calendar-eventmanager",function() {M.core_calendar.add_event({"eventId":"calendar_tooltip_1","title":"Monday, October 13 events","content":"<div><img alt=\"assign\" class=\"smallicon\" title=\"assign\" src=\"https:\/\/moodle.ucl.ac.uk\/theme\/image.php\/ucl\/assign\/1413280547\/icon\" \/><a href=\"https:\/\/moodle.ucl.ac.uk\/calendar\/view.php?view=day&amp;time=1413154800#event_467783\">Databases coursework: submission here<\/a><\/div>"});
+});
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-calendar-eventmanager",function() {M.core_calendar.add_event({"eventId":"calendar_tooltip_2","title":"Friday, October 17 events","content":"<div><img alt=\"assign\" class=\"smallicon\" title=\"assign\" src=\"https:\/\/moodle.ucl.ac.uk\/theme\/image.php\/ucl\/assign\/1413280547\/icon\" \/><a href=\"https:\/\/moodle.ucl.ac.uk\/calendar\/view.php?view=day&amp;time=1413500400#event_467037\">Bi-Weekly Report 1, upload directly after you have your first meeting with your client<\/a><\/div>"});
+});
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-calendar-eventmanager",function() {M.core_calendar.add_event({"eventId":"calendar_tooltip_3","title":"Friday, October 24 events","content":"<div><img alt=\"assign\" class=\"smallicon\" title=\"assign\" src=\"https:\/\/moodle.ucl.ac.uk\/theme\/image.php\/ucl\/assign\/1413280547\/icon\" \/><a href=\"https:\/\/moodle.ucl.ac.uk\/calendar\/view.php?view=day&amp;time=1414105200#event_467039\">Bi-Weekly Report 2, upload by 11.55pm Friday 24th October<\/a><\/div>"});
+});
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-calendar-eventmanager",function() {M.core_calendar.add_event({"eventId":"calendar_tooltip_4","title":"Today Thursday, October 30","content":"No events"});
+});
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
+});
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"321036","instance":"321036","candock":false});
+});
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"321033","instance":"321033","candock":false,"courselimit":"20","expansionlimit":"20"});
+});
+M.util.help_popups.setup(Y);
+M.yui.galleryversion="2010.04.08-12-35";Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+M.util.init_block_hider(Y, {"id":"inst422789","title":"Logged in user","preference":"block422789hidden","tooltipVisible":"Hide Logged in user block","tooltipHidden":"Show Logged in user block"});
+M.util.init_block_hider(Y, {"id":"inst321090","title":"Latest news","preference":"block321090hidden","tooltipVisible":"Hide Latest news block","tooltipHidden":"Show Latest news block"});
+M.util.init_block_hider(Y, {"id":"inst321093","title":"Calendar","preference":"block321093hidden","tooltipVisible":"Hide Calendar block","tooltipHidden":"Show Calendar block"});
+M.util.init_block_hider(Y, {"id":"inst321039","title":"My private files","preference":"block321039hidden","tooltipVisible":"Hide My private files block","tooltipHidden":"Show My private files block"});
+M.util.init_block_hider(Y, {"id":"inst372216","title":"Moodle Maintenance","preference":"block372216hidden","tooltipVisible":"Hide Moodle Maintenance block","tooltipHidden":"Show Moodle Maintenance block"});
+M.util.init_block_hider(Y, {"id":"inst321036","title":"Settings","preference":"block321036hidden","tooltipVisible":"Hide Settings block","tooltipHidden":"Show Settings block"});
+M.util.init_block_hider(Y, {"id":"inst321033","title":"Navigation","preference":"block321033hidden","tooltipVisible":"Hide Navigation block","tooltipHidden":"Show Navigation block"});
+M.util.init_block_hider(Y, {"id":"inst321081","title":"My courses","preference":"block321081hidden","tooltipVisible":"Hide My courses block","tooltipHidden":"Show My courses block"});
+ M.util.js_pending('random545286b4302bc10'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random545286b4302bc10'); });
+
+});
+//]]>
+</script>
+
+</div>
+
+<!-- Start Google Analytics -->
+	<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+	ga('create', 'UA-4551567-2', 
+	{
+		'cookieDomain': 'moodle.ucl.ac.uk',
+		'cookieExpires': '10800'
+	});
+			ga('send', 'pageview' );
+
+	</script><!-- End Google Analytics -->
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+<a href="#top" class="back-to-top" title="Back to top">&#9650</a>
+</body>
+</html>

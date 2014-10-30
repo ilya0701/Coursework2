@@ -1,0 +1,75 @@
+2014-10-30 17:58:09,675 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2014-10-30 17:58:09,720 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2014-10-30 17:58:10,885 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2014-10-30 17:58:11,027 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2014-10-30 17:58:11,039 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2014-10-30 17:58:11,073 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2014-10-30 17:58:11,073 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2014-10-30 17:58:11,108 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-10-30 17:58:14,595 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2014-10-30 17:58:14,595 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2014-10-30 17:58:14,612 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2014-10-30 17:58:17,549 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2014-10-30 17:58:17,550 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2014-10-30 17:58:17,570 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2014-10-30 17:58:59,424 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2014-10-30 17:58:59,429 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2014-10-30 17:58:59,700 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2014-10-30 17:58:59,700 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2014-10-30 17:58:59,702 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2014-10-30 17:58:59,702 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2014-10-30 17:58:59,725 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-10-30 17:59:00,080 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2014-10-30 17:59:00,080 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2014-10-30 17:59:00,514 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2014-10-30 17:59:05,171 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2014-10-30 17:59:05,172 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2014-10-30 17:59:05,193 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)

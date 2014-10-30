@@ -1,0 +1,35 @@
+
+(unity-panel-service:1568): Indicator-Appmenu-WARNING **: Already have a menu for window ID 58720435 with path /com/canonical/menu/38000B3 from :1.93, unregistering that one
+
+(unity-panel-service:1568): Gdk-WARNING **: unity-panel-service: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(unity-panel-service:1313): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1313): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1313): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1313): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1313): Indicator-Appmenu-WARNING **: Already have a menu for window ID 60817587 with path /com/canonical/menu/3A000B3 from :1.75, unregistering that one
+
+(unity-panel-service:1313): Gdk-WARNING **: unity-panel-service: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(unity-panel-service:1315): Gdk-WARNING **: unity-panel-service: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(unity-panel-service:1306): Gdk-WARNING **: unity-panel-service: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(unity-panel-service:1312): Gdk-WARNING **: unity-panel-service: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(unity-panel-service:1303): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1303): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1303): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+
+(unity-panel-service:1303): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed

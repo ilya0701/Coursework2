@@ -1,0 +1,170 @@
+
+(unity-settings-daemon:1558): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1558): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1558): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1558): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1558): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1558): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1558): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1558): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1558): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1558): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:6818): Gdk-WARNING **: unity-settings-daemon: Fatal IO error 2 (No such file or directory) on X server :0.
+
+
+(unity-settings-daemon:1303): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
+
+(unity-settings-daemon:1303): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+
+(unity-settings-daemon:1303): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+
+(unity-settings-daemon:1303): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1303): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1303): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1303): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1303): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1303): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1303): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1303): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1303): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1303): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+** (unity-settings-daemon:2798): WARNING **: Unable to register client: GDBus.Error:org.gnome.SessionManager.NotInRunning: Unable to register client
+
+(unity-settings-daemon:2798): Gdk-WARNING **: unity-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(unity-settings-daemon:1305): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
+
+(unity-settings-daemon:1305): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+
+(unity-settings-daemon:1305): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1305): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1305): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1305): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1305): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1305): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1305): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1305): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1305): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1305): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+** (unity-settings-daemon:2074): WARNING **: Unable to register client: GDBus.Error:org.gnome.SessionManager.NotInRunning: Unable to register client
+
+(unity-settings-daemon:2074): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
+
+(unity-settings-daemon:2074): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+
+** (unity-settings-daemon:2074): WARNING **: Name taken or bus went away - shutting down
+
+(unity-settings-daemon:2074): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:2074): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:2074): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:2074): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:2074): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:2074): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:2074): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:2074): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:2074): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:2074): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:2074): Gdk-WARNING **: unity-settings-daemon: Fatal IO error 2 (No such file or directory) on X server :0.
+
+
+(unity-settings-daemon:1296): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
+
+(unity-settings-daemon:1296): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+
+(unity-settings-daemon:1296): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1296): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1296): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1296): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1296): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1296): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1296): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1296): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1296): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1296): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+** (unity-settings-daemon:2036): WARNING **: Unable to register client: GDBus.Error:org.gnome.SessionManager.NotInRunning: Unable to register client
+
+(unity-settings-daemon:2036): Gdk-WARNING **: unity-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(unity-settings-daemon:1302): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
+
+(unity-settings-daemon:1302): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+
+(unity-settings-daemon:1302): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1302): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1302): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1302): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1302): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1302): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1302): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1302): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1302): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:1302): wacom-plugin-CRITICAL **: gsd_wacom_device_get_device_type: assertion 'GSD_IS_WACOM_DEVICE (device)' failed
+
+(unity-settings-daemon:2032): Gdk-WARNING **: unity-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(unity-settings-daemon:1288): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
+
+(unity-settings-daemon:1288): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output

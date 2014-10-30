@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head profile="http://www.w3.org/2003/g/data-view">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Access denied for user (MySQL) - Geeklog</title>
+
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <link rel="SHORTCUT ICON" href="https://www.geeklog.net/layout/geeklognet_theme/images/favicon.ico" />
+    <!-- <meta http-equiv="Pragma" content="no-cache" /> -->
+    <link rel="start contents" href="https://www.geeklog.net" />
+<link rel="alternate" type="application/rss+xml" hreflang="en-gb" href="https://www.geeklog.net/backend/geeklog.rss" title="RSS Feed: Geeklog" />
+<link rel="alternate" type="application/rss+xml" hreflang="en-gb" href="https://www.geeklog.net/backend/comments.rss" title="RSS Feed: Geeklog Comments" /><link rel="home" href="https://www.geeklog.net/" title="Home" />
+<link rel="search" href="https://www.geeklog.net/search.php" title="Advanced Search" />
+<link rel="service" type="application/atomsvc+xml" href="https://www.geeklog.net/webservices/atom/?introspection" title="Webservices" /><link rel="stylesheet" type="text/css" href="https://www.geeklog.net/layout/geeklognet_theme/style.css.php?theme=geeklognet_theme&amp;dir=ltr" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.geeklog.net/polls/style.css" />
+<script type="text/javascript">
+var geeklog = {
+    doc: document,
+    win: window,
+    $: function (id) {
+        return this.doc.getElementById(id);
+    },
+    site_url:"https://www.geeklog.net",site_admin_url:"https://www.geeklog.net/admin",layout_url:"https://www.geeklog.net/layout/geeklognet_theme",xhtml:" /",lang:{iso639Code:"en",tooltip_loading:"Loading...",tooltip_not_found:"Help page is not found.",tooltip_select_date:"Click to select a date",tabs_more:"More..",confirm_delete:"Do you really want to delete this item?",confirm_send:"Send this?"}
+};
+</script>
+
+<!-- Bad Behavior 2.0.49 run time: 13.486 ms -->
+<script type="text/javascript">
+<!--
+function bb2_addLoadEvent(func) {
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+		window.onload = func;
+	} else {
+		window.onload = function() {
+			oldonload();
+			func();
+		}
+	}
+}
+
+bb2_addLoadEvent(function() {
+	for ( i=0; i < document.forms.length; i++ ) {
+		if (document.forms[i].method == 'post') {
+			var myElement = document.createElement('input');
+			myElement.setAttribute('type', 'hidden');
+			myElement.name = 'bb2_screener_';
+			myElement.value = '1414695187 62.254.75.192';
+			document.forms[i].appendChild(myElement);
+		}
+	}
+});
+// --></script>
+		
+<!-- Include CSS for Forum -->
+<link rel="stylesheet" type="text/css" href="https://www.geeklog.net/forum/forum/layout/forum.css" />
+<link rel="stylesheet" type="text/css" href="https://www.geeklog.net/forum/smilies.css.php" />
+<link rel="stylesheet" type="text/css" href="https://www.geeklog.net/captcha/style.css" />
+<link rel="stylesheet" type="text/css" href="https://www.geeklog.net/captcha/jquery/QapTcha.jquery.css" media="screen"  />  </head>
+  <body dir="ltr" class="js_off">
+
+<!-- #container { -->
+    <div id="container">
+      <!-- #header { -->
+      <div id="header">
+        <div id="header-content">
+          <h1 class="site_name"><a href="https://www.geeklog.net"><img src="https://www.geeklog.net/layout/geeklognet_theme/images/logo.png" width="226" height="80" alt="Geeklog" /></a></h1>
+         <p class="site_slogan">The secure CMS.</p>
+        </div>
+      </div>
+      <!-- } #header -->
+
+      <hr class="separator" />
+
+      <!-- #navigation { -->
+      <div id="navigation">
+        <ul>
+          <li class="menuitem"><a href="https://www.geeklog.net/users.php">Login</a></li>
+<li class="menuitem"><a href="https://www.geeklog.net/submit.php?type=story">Contribute</a></li>
+<li class="menuitem"><a href="https://www.geeklog.net/staticpages/index.php/20011217123134458">Support</a></li>
+<li class="menuitem"><a href="https://www.geeklog.net/polls/index.php">Polls</a></li>
+<li class="menuitem"><a href="https://www.geeklog.net/links/index.php">Links</a></li>
+<li class="menuitem"><a href="https://www.geeklog.net/forum/index.php">Forum</a></li>
+<li class="menuitem"><a href="https://www.geeklog.net/filemgmt/index.php">Downloads</a></li>
+<li class="menuitem last-child"><a href="https://www.geeklog.net/directory.php">Directory</a></li>
+        </ul>
+        <div style="clear: both;"></div>
+      </div>
+      <!-- } #navigation -->
+
+      <hr class="separator" />
+
+      <!-- #wrapper { -->
+      <div id="wrapper">
+
+        <!--[if !IE]> Using conditional comments to avoid Win IE 6 bugs. <![endif]-->
+<!--[if !IE]> (When combined with multiple floating elements, floating bug duplicate last element content) <![endif]-->
+
+    <!-- #leftblocks { -->
+        <div id="leftblocks">
+      <div class="block-left" id="block-left-search">
+        <div class="block-left-content">
+          <form action="https://www.geeklog.net/search.php" method="get" id="searchform" class="basic">
+            <div>
+              <input type="text" value="Search" size="16" maxlength="255" name="query" class="text" />
+              <input type="submit" value="" title="Search" class="submit" />
+              <input type="hidden" value="all" name="type" />
+              <input type="hidden" value="all" name="keyType" />
+              <input type="hidden" value="search" name="mode" />
+            </div>
+          </form>
+        </div>
+      </div>
+
+          <div class="block-left">
+      <h2>Resources</h2>
+      <div class="block-left-content">
+
+<h2>Getting started</h2>
+<ul>
+<li><a href="https://www.geeklog.net/filemgmt/viewcat.php?cid=8" title="Download the latest version">Download Geeklog</a></li>
+<li><a href="https://www.geeklog.net/docs/english/" title="Includes installation and upgrading instructions">Documentation</a></li>
+<li><a href="http://wiki.geeklog.net/wiki/index.php/Main_Page" title="More documentation">Wiki Docs</a></li>
+<li><a href="http://demo.geeklog.net" title="Try it out now!">Demo Site (1.8.2sr1)</a></li>
+<li><a href="http://demonext.geeklog.net" title="Try it out now!">Demo Site (2.1.0)</a></li>
+</ul>
+
+<h2>Support</h2>
+<ul>
+<li><a href="https://www.geeklog.net/faqman/" title="Frequently Asked Questions">FAQ</a></li>
+<li><a href="https://www.geeklog.net/forum/" title="Our support forums">Forums</a></li>
+<li><a href="https://www.geeklog.net/faqman/index.php?op=view&amp;t=15" title="Subscribe to one of our mailing lists">Mailing Lists</a></li>
+<li><a href="http://project.geeklog.net/" title="File a bug or request a feature">Report a Bug or Request a Feature</a></li>
+<li><a href="https://www.geeklog.net/staticpages/index.php?page=GeeklogSecurity" title="Focus on security">Geeklog Security</a></li>
+</ul>
+
+<h2>Development</h2>
+<ul>
+<li><a href="http://wiki.geeklog.net/index.php/Getting_Started" title="Getting started with Geeklog development">Getting Started</a></li>
+<li><a href="http://wiki.geeklog.net/index.php/Plugin_Developers_Handbook" title="Learn how to write a plugin for Geeklog">Plugin Developers Guide</a></li>
+<li><a href="https://www.geeklog.net/staticpages/index.php/CVS" title="Download the current development version">Download Source Code</a></li>
+<li><a href="http://project.geeklog.net/src/" title="Browse the Geeklog source code">Documented Source Code</a></li>
+<li><a href="http://project.geeklog.net/tracking/roadmap_page.php" title="Geeklog's Proposed Roadmap">Roadmap</a></li>
+<li><a href="https://www.geeklog.net/staticpages/index.php/bounties" title="Contribute and earn some money">Bounties!</a></li>
+</ul>
+      </div>
+    </div>
+
+<div class="block-list">
+    <h2>Topics</h2>
+      <div class="block-list-content">
+      <ul>
+
+<li class="topicoption"><a href="https://www.geeklog.net/">Home</a>&nbsp;</li>
+<li class="topicoption">&nbsp;&nbsp;&nbsp;<a href="https://www.geeklog.net/index.php?topic=Development">Development </a>&nbsp;(321)</li>
+<li class="topicoption">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.geeklog.net/index.php?topic=GeekLog">Geeklog</a>&nbsp;(211)</li>
+<li class="topicoption">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.geeklog.net/index.php?topic=plugins">Plugins</a>&nbsp;(114)</li>
+<li class="topicoption">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.geeklog.net/index.php?topic=Themes">Themes</a>&nbsp;(6)</li>
+<li class="topicoption">&nbsp;&nbsp;&nbsp;<a href="https://www.geeklog.net/index.php?topic=News">News</a>&nbsp;(391)</li>
+<li class="topicoption">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.geeklog.net/index.php?topic=announcements">Announcements</a>&nbsp;(252)</li>
+<li class="topicoption">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.geeklog.net/index.php?topic=Server">Geeklog.net</a>&nbsp;(31)</li>
+<li class="topicoption">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.geeklog.net/index.php?topic=Security">Security</a>&nbsp;(76)</li>
+<li class="topicoption">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.geeklog.net/index.php?topic=spam">Spam</a>&nbsp;(11)</li>
+<li class="topicoption">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.geeklog.net/index.php?topic=GSoC">Summer of Code</a>&nbsp;(28)</li>
+    </ul>
+    </div>
+</div>
+
+    <div class="block-left">
+      <h2>User Functions</h2>
+      <div class="block-left-content">
+
+<form action="https://www.geeklog.net/users.php" method="post" id="loginform" class="basic">
+  <div>
+    <dl>
+      <dt><label for="loginform-loginname">Username</label></dt>
+      <dd><input type="text" size="12" value="" name="loginname" id="loginform-loginname" class="text" /></dd>
+
+      
+      <dt><label for="loginform-passwd">Password</label></dt>
+      <dd><input type="password" size="12" name="passwd" id="loginform-passwd" class="text" /></dd>
+    </dl>
+
+    <ul class="submit">
+      <li><input type="submit" value="Login" class="submit" /></li>
+    </ul>
+  </div>
+  <ul class="navi">
+    <li>Don't have an account yet?  Sign up as a <a href="https://www.geeklog.net/users.php?mode=new" rel="nofollow">New User</a>!</li>
+    <li>Lost your <a href="https://www.geeklog.net/users.php?mode=getpassword" rel="nofollow">password</a>?</li>
+  </ul>
+</form>
+<form class="third-party-login" action="https://www.geeklog.net/users.php?oauth_login=facebook" method="post">
+    <div>
+                        
+                <img alt="" src="https://www.geeklog.net/images/facebook-login-icon.png" /><input value="Login with Facebook" type="submit" class="submit" />
+    </div>
+</form>
+
+
+<form class="third-party-login" action="https://www.geeklog.net/users.php?oauth_login=twitter" method="post">
+    <div>
+                        
+                <img alt="" src="https://www.geeklog.net/images/twitter-login-icon.png" /><input value="Login with Twitter" type="submit" class="submit" />
+    </div>
+</form>
+
+
+<form class="third-party-login" action="https://www.geeklog.net/users.php?openid_login=1" method="post">
+  <div>
+    <div style="display: none;">
+      <!-- this is revealed by login.js -->
+      <img alt="" src="https://www.geeklog.net/images/openid_login_icon.png" />
+      <input value="Login with OpenID" type="submit" class="submit" />
+    </div>
+    <noscript>
+      <label for="identity_url">Login with OpenID</label><br />
+      <input name="identity_url" id="identity_url" style='background: url("https://www.geeklog.net/images/openid_login_icon.png") no-repeat;background-color:#fff;background-position:0 50%;color:#000;padding-left:18px;font-family:monospace;font-size:10px' value="http://" size="18" />
+      <input src="https://www.geeklog.net/images/right_arrow.png" style="padding:1px;margin-bottom:-5px;height:16px;width:16px;border:1px" type="image" />
+    </noscript>
+  </div>
+</form>
+
+
+      </div>
+    </div>
+
+    <div class="block-left">
+      <h2>Events</h2>
+      <div class="block-left-content">
+
+There are no upcoming events
+      </div>
+    </div>
+
+    <div class="block-left">
+      <h2>What's New</h2>
+      <div class="block-left-content">
+
+<h3>Stories <small>last 2 weeks</small></h3>No new stories<br />
+<div class="divider-whats-new"></div><h3>Comments <small>last 2 weeks</small></h3>No new comments<br />
+<div class="divider-whats-new"></div><h3>Trackbacks <small>last 2 weeks</small></h3>No new trackback comments<br />
+<div class="divider-whats-new"></div><h3>Links <small>last 2 weeks</small></h3>No recent new links<br />
+<div class="divider-whats-new"></div><h3>NEW FILES <small> last 14 days</small></h3>No new files<br />
+      </div>
+    </div>
+
+    </div>
+    <!--[if !IE]> } #leftblocks <![endif]-->
+
+    <hr class="separator" />
+
+
+        <!--[if !IE]> Using conditional comments to avoid Win IE 6 bugs. <![endif]-->
+        <!--[if !IE]> (When combined with multiple floating elements, floating bug duplicate last element content) <![endif]-->
+        <!--[if !IE]> #centerblocks { <![endif]-->
+                <div id="centerblocks">
+          <p class="welcome_msg">Welcome to Geeklog&nbsp;Thursday, October 30 2014 @ 02:53 PM EDT</p>
+          <div id="centerblocks-content">
+          
+<div class="block-center">
+  <h2>Access denied for user (MySQL)</h2>
+  <div class="block-center-content">
+
+<p>If you get an error message like this:<br><br><pre>Warning: mysql_connect(): Access denied for user: 'username@localhost' (Using password: YES) in<br>/path/to/geeklog/system/databases/mysql.class.php on line ...<br>Cannnot connect to DB server</pre><br>then the problem is that Geeklog can not access the database. This can have several causes:<br><br>First of all, make sure the database settings in your <tt>db-config.php</tt> (<tt>config.php</tt> for older Geeklog releases) are correct, specifically the name and password of your MySQL user, the name of your database, and the name of your MySQL server.<br><br>If you're running your own server, you may need to give your MySQL user proper permissions. Log in to MySQL as the MySQL root user and issue these commands:<br><br><code>GRANT ALL PRIVILEGES ON database_name TO user@host IDENTIFIED BY 'password';<br>FLUSH PRIVILEGES;</code><br><br>Replacing the lower-case strings with the actual values, of course.<br><br>If you want (or need) to be more restrictive with database permissions: You will need to at least grant the ALTER, CREATE, DELETE, INSERT, SELECT, and UPDATE permissions to your database user. ALTER and CREATE permissions are only needed for installing and upgrading Geeklog, as well as for installing plugins and other add-ons.<br><br>In addition to the above, if you're running Geeklog 1.3.10 or later on MySQL 4.x, you'll also need to grant the LOCK TABLES permissions to your database user.</p>
+<p><a href="https://www.geeklog.net/faqman/">FAQ Manager</a> &#187; <a href="https://www.geeklog.net/faqman/index.php?op=cat&amp;c=5" rel="category tag">Common problems</a> &#187; Access denied for user (MySQL)</p>
+  </div>
+</div>
+
+           </div>
+        </div>
+        <!--[if !IE]> Using conditional comments to avoid Win IE 6 bugs <![endif]-->
+        <!--[if !IE]> (When combined with multiple floating elements, floating bug duplicate last element content) <![endif]-->
+        <!--[if !IE]> } #centerblocks <![endif]-->
+
+              </div>
+      <!-- } #wrapper -->
+
+      <hr class="separator" />
+
+      <!-- #footer { -->
+      <div id="footer">
+        <div id="footer-content">
+        <ul class="copyright">
+          <li class="copyright_notice"><address>&copy; 2001-2014 Geeklog</address></li>
+          <li class="execution_textandtime">Created this page in 0.24 seconds</li>
+        </ul>
+        <ul class="site_info">
+          <li class="powered_by">Powered by&nbsp;<a href="http://www.geeklog.net/">Geeklog 2.1.0</a></li>
+          <li class="powered_by">Hosted by <a href="http://pair.com/">pair.com</a></li>
+          <!-- Theme by Fumito Arakawa as Phize (http://phize.net/) -->
+        </ul>
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+      <!-- } #footer -->
+
+    </div>
+    <!-- } #container -->
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.geeklog.net/javascript/common.js"></script>
+<script type="text/javascript" src="https://www.geeklog.net/javascript/login.js"></script>
+ 
+    
+        <script type="text/javascript">
+    <!--
+    FixHTML('leftblocks', 'centerblocks', 'rightblocks');
+    -->
+    </script>    
+
+  </body>
+</html>
+

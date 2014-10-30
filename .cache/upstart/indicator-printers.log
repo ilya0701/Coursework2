@@ -1,0 +1,30 @@
+
+(indicator-printers-service:1669): Gdk-WARNING **: indicator-printers-service: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+** (indicator-printers-service:1667): WARNING **: Error subscribing to CUPS notifications: Bad file descriptor
+
+
+(indicator-printers-service:1667): Gdk-WARNING **: indicator-printers-service: Fatal IO error 0 (Success) on X server :0.
+
+
+** (indicator-printers-service:1632): WARNING **: Error subscribing to CUPS notifications: Bad file descriptor
+
+
+(indicator-printers-service:1632): Gdk-WARNING **: indicator-printers-service: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+** (indicator-printers-service:1631): WARNING **: Error subscribing to CUPS notifications: Bad file descriptor
+
+
+(indicator-printers-service:1631): Gdk-WARNING **: indicator-printers-service: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+** (indicator-printers-service:1684): WARNING **: Error subscribing to CUPS notifications: Bad file descriptor
+
+
+(indicator-printers-service:1684): Gdk-WARNING **: indicator-printers-service: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+** (indicator-printers-service:1748): WARNING **: Error subscribing to CUPS notifications: Bad file descriptor
+

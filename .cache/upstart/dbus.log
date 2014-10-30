@@ -1,0 +1,545 @@
+
+** (zeitgeist-fts:2448): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/ilya/.cache/oneconf/6b3d0c1cbe524e70059ed16c5452781e/other_hosts'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+
+** (zeitgeist-fts:2448): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+
+(bamfdaemon:1341): Gdk-WARNING **: bamfdaemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 49 requests (49 known processed) with 0 events remaining.
+
+(indicator-keyboard-service:1646): Gdk-WARNING **: indicator-keyboard-service: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(notify-osd:1960): Gdk-WARNING **: notify-osd: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+** (ubuntu-geoip-provider:2740): WARNING **: SIGTERM recieved
+
+(ubuntu-geoip-provider:2740): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+
+(zeitgeist-fts:2448): GLib-GIO-WARNING **: Error releasing name org.gnome.zeitgeist.SimpleIndexer: The connection is closed
+
+** (zeitgeist-fts:2448): WARNING **: zeitgeist-fts.vala:252: The connection is closed
+Activating service name='org.gtk.vfs.Daemon'
+Successfully activated service 'org.gtk.vfs.Daemon'
+Activating service name='org.ayatana.bamf'
+Successfully activated service 'org.ayatana.bamf'
+Activating service name='com.canonical.indicator.keyboard'
+Activating service name='org.gnome.ScreenSaver'
+Successfully activated service 'org.gnome.ScreenSaver'
+Activating service name='org.freedesktop.Notifications'
+Successfully activated service 'com.canonical.indicator.keyboard'
+Activating service name='org.gnome.evolution.dataserver.Sources2'
+Successfully activated service 'org.freedesktop.Notifications'
+Activating service name='ca.desrt.dconf'
+Successfully activated service 'ca.desrt.dconf'
+Activating service name='org.gtk.Private.UDisks2VolumeMonitor'
+Activating service name='org.gnome.GConf'
+Successfully activated service 'org.gnome.GConf'
+Successfully activated service 'org.gtk.Private.UDisks2VolumeMonitor'
+Activating service name='org.gtk.Private.MTPVolumeMonitor'
+Successfully activated service 'org.gtk.Private.MTPVolumeMonitor'
+Activating service name='org.gtk.Private.AfcVolumeMonitor'
+Successfully activated service 'org.gtk.Private.AfcVolumeMonitor'
+Activating service name='org.gtk.Private.GPhoto2VolumeMonitor'
+Successfully activated service 'org.gtk.Private.GPhoto2VolumeMonitor'
+module-cache-reaper-Message: Scanning data directories
+module-cache-reaper-Message: Scanning cache directories
+Successfully activated service 'org.gnome.evolution.dataserver.Sources2'
+Activating service name='org.gnome.evolution.dataserver.Calendar4'
+Successfully activated service 'org.gnome.evolution.dataserver.Calendar4'
+** Message: Lost the name, shutting down.
+Activating service name='org.gtk.vfs.Metadata'
+Successfully activated service 'org.gtk.vfs.Metadata'
+Activating service name='org.freedesktop.Telepathy.AccountManager'
+Successfully activated service 'org.freedesktop.Telepathy.AccountManager'
+Activating service name='com.canonical.indicators.webcredentials'
+Successfully activated service 'com.canonical.indicators.webcredentials'
+Activating service name='org.gnome.zeitgeist.Engine'
+Activating service name='org.gnome.zeitgeist.SimpleIndexer'
+Successfully activated service 'org.gnome.zeitgeist.Engine'
+
+** (zeitgeist-datahub:2126): WARNING **: zeitgeist-datahub.vala:229: Unable to get name "org.gnome.zeitgeist.datahub" on the bus!
+Successfully activated service 'org.gnome.zeitgeist.SimpleIndexer'
+Activating service name='com.canonical.Unity.Webapps.Service'
+Successfully activated service 'com.canonical.Unity.Webapps.Service'
+** Message: Investigating webapp: unity-webapps-common 
+
+
+** (process:2462): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-qml 
+
+
+** (process:2462): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-qml-doc 
+
+
+** (process:2462): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-qml-examples 
+
+
+** (process:2462): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-service 
+
+
+** (process:2462): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-amazoncloudreader 
+
+** Message: Investigating webapp: unity-webapps-bbcnews 
+
+** Message: Investigating webapp: unity-webapps-cnn-news 
+
+** Message: Investigating webapp: unity-webapps-deezer 
+
+** Message: Investigating webapp: unity-webapps-dev 
+
+
+** (process:2462): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-deviantart 
+
+** Message: Investigating webapp: unity-webapps-facebookmessenger 
+
+** Message: Investigating webapp: unity-webapps-googlenews 
+
+** Message: Investigating webapp: unity-webapps-googleplusgames 
+
+
+** (process:2462): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-grooveshark 
+
+** Message: Investigating webapp: unity-webapps-hulu-player 
+
+** Message: Investigating webapp: unity-webapps-lastfm-radio 
+
+** Message: Investigating webapp: unity-webapps-launchpad 
+
+** Message: Investigating webapp: unity-webapps-librefm 
+
+** Message: Investigating webapp: unity-webapps-linkedin 
+
+** Message: Investigating webapp: unity-webapps-mail-ru 
+
+** Message: Investigating webapp: unity-webapps-newsblur 
+
+** Message: Investigating webapp: unity-webapps-pandora 
+
+** Message: Investigating webapp: unity-webapps-pandora-com 
+
+** Message: Investigating webapp: unity-webapps-qml-autopilot 
+
+
+** (process:2462): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-qq-mail 
+
+** Message: Investigating webapp: unity-webapps-reddit 
+
+** Message: Investigating webapp: unity-webapps-tumblr 
+
+** Message: Investigating webapp: unity-webapps-twitter 
+
+** Message: Investigating webapp: unity-webapps-vkcom 
+
+** Message: Investigating webapp: unity-webapps-wordpress 
+
+** Message: Investigating webapp: unity-webapps-wordpress-com 
+
+** Message: Investigating webapp: unity-webapps-yahoonews 
+
+** Message: Investigating webapp: unity-webapps-yandex-music 
+
+** Message: Investigating webapp: unity-webapps-yandexmail 
+
+** Message: Investigating webapp: unity-webapps-yandexmusic 
+
+** Message: Investigating webapp: unity-webapps-yandexnews 
+
+** Message: Investigating webapp: unity-webapps-qml 
+
+
+** (process:2462): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-qml-examples 
+
+
+** (process:2462): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-service 
+
+
+** (process:2462): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-gmail 
+
+** Message: Investigating webapp: unity-webapps-googlecalendar 
+
+** Message: Investigating webapp: unity-webapps-googledocs 
+
+** Message: Investigating webapp: unity-webapps-googleplus 
+
+** Message: Investigating webapp: unity-webapps-livemail 
+
+** Message: Investigating webapp: unity-webapps-yahoomail 
+
+** Message: Investigating webapp: unity-webapps-youtube 
+
+
+** (zeitgeist-fts:2124): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Activating service name='com.canonical.Unity.Scope.Home'
+Successfully activated service 'com.canonical.Unity.Scope.Home'
+
+(unity-scope-home:2610): unity-scope-home-WARNING **: platform-info.vala:112: Unable to read SIM properties: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.ofono was not provided by any .service files
+Activating service name='com.canonical.Unity.Scope.Applications'
+Activating service name='com.canonical.Unity.Scope.File.Gdrive'
+Activating service name='com.canonical.Unity.Scope.LocalFiles'
+
+(process:2627): unity-files-daemon-WARNING **: folder.vala:65: Failed to read favorites: Failed to open file '/home/ilya/.gtk-bookmarks': No such file or directory
+Successfully activated service 'com.canonical.Unity.Scope.LocalFiles'
+Successfully activated service 'com.canonical.Unity.Scope.File.Gdrive'
+Successfully activated service 'com.canonical.Unity.Scope.Applications'
+Activating service name='com.ubuntu.SoftwareCenterDataProvider'
+Successfully activated service 'com.ubuntu.SoftwareCenterDataProvider'
+Activating service name='org.freedesktop.Geoclue.Master'
+Successfully activated service 'org.freedesktop.Geoclue.Master'
+** Message: GSettings key 'gps-baudrate' initialised to '0'
+** Message: GSettings key 'gps-device' initialised to '(null)'
+Activating service name='org.freedesktop.Geoclue.Providers.UbuntuGeoIP'
+Successfully activated service 'org.freedesktop.Geoclue.Providers.UbuntuGeoIP'
+No handlers could be found for logger "softwarecenter.region"
+/usr/lib/python2.7/dist-packages/gi/overrides/GLib.py:523: Warning: Source ID 23 was not found when attempting to remove it
+  super(MainLoop, self).run()
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+/usr/lib/python2.7/dist-packages/gi/overrides/GLib.py:535: Warning: Source ID 20 was not found when attempting to remove it
+  return super(MainContext, self).iteration(may_block)
+
+** (zeitgeist-fts:2124): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+(bamfdaemon:1351): Gdk-WARNING **: bamfdaemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+** (ubuntu-geoip-provider:2688): WARNING **: SIGTERM recieved
+
+(ubuntu-geoip-provider:2688): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(indicator-keyboard-service:1658): Gdk-WARNING **: indicator-keyboard-service: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+g_dbus_connection_real_closed: Remote peer vanished with error: Error receiving message: Connection reset by peer (g-io-error-quark, 0). Exiting.
+Activating service name='org.gtk.vfs.Daemon'
+Successfully activated service 'org.gtk.vfs.Daemon'
+Activating service name='org.ayatana.bamf'
+Successfully activated service 'org.ayatana.bamf'
+Activating service name='com.canonical.indicator.keyboard'
+Activating service name='org.gnome.ScreenSaver'
+Activating service name='ca.desrt.dconf'
+Successfully activated service 'ca.desrt.dconf'
+Successfully activated service 'org.gnome.ScreenSaver'
+Activating service name='org.gtk.Private.UDisks2VolumeMonitor'
+Activating service name='org.freedesktop.Notifications'
+Successfully activated service 'org.freedesktop.Notifications'
+Successfully activated service 'com.canonical.indicator.keyboard'
+Activating service name='org.gnome.evolution.dataserver.Sources2'
+Successfully activated service 'org.gtk.Private.UDisks2VolumeMonitor'
+Activating service name='org.gtk.Private.MTPVolumeMonitor'
+Successfully activated service 'org.gtk.Private.MTPVolumeMonitor'
+Activating service name='org.gtk.Private.AfcVolumeMonitor'
+Successfully activated service 'org.gtk.Private.AfcVolumeMonitor'
+Activating service name='org.gtk.Private.GPhoto2VolumeMonitor'
+Successfully activated service 'org.gtk.Private.GPhoto2VolumeMonitor'
+Activating service name='org.gnome.GConf'
+Successfully activated service 'org.gnome.GConf'
+module-cache-reaper-Message: Scanning data directories
+module-cache-reaper-Message: Scanning cache directories
+Successfully activated service 'org.gnome.evolution.dataserver.Sources2'
+Activating service name='org.gnome.evolution.dataserver.Calendar4'
+Successfully activated service 'org.gnome.evolution.dataserver.Calendar4'
+** Message: Lost the name, shutting down.
+
+(bamfdaemon:1345): Gdk-WARNING **: bamfdaemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(indicator-keyboard-service:1623): Gdk-WARNING **: indicator-keyboard-service: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+Activating service name='org.gtk.vfs.Daemon'
+Successfully activated service 'org.gtk.vfs.Daemon'
+Activating service name='org.ayatana.bamf'
+Successfully activated service 'org.ayatana.bamf'
+Activating service name='com.canonical.indicator.keyboard'
+Activating service name='org.gnome.ScreenSaver'
+Successfully activated service 'org.gnome.ScreenSaver'
+Activating service name='org.freedesktop.Notifications'
+Successfully activated service 'org.freedesktop.Notifications'
+Successfully activated service 'com.canonical.indicator.keyboard'
+Activating service name='ca.desrt.dconf'
+Successfully activated service 'ca.desrt.dconf'
+Activating service name='org.gnome.evolution.dataserver.Sources2'
+Activating service name='org.gtk.Private.UDisks2VolumeMonitor'
+Successfully activated service 'org.gtk.Private.UDisks2VolumeMonitor'
+Activating service name='org.gtk.Private.MTPVolumeMonitor'
+Successfully activated service 'org.gtk.Private.MTPVolumeMonitor'
+Activating service name='org.gtk.Private.AfcVolumeMonitor'
+Successfully activated service 'org.gtk.Private.AfcVolumeMonitor'
+Activating service name='org.gtk.Private.GPhoto2VolumeMonitor'
+Successfully activated service 'org.gtk.Private.GPhoto2VolumeMonitor'
+Activating service name='org.gnome.GConf'
+Successfully activated service 'org.gnome.GConf'
+module-cache-reaper-Message: Scanning data directories
+module-cache-reaper-Message: Scanning cache directories
+Successfully activated service 'org.gnome.evolution.dataserver.Sources2'
+Activating service name='org.gnome.evolution.dataserver.Calendar4'
+Successfully activated service 'org.gnome.evolution.dataserver.Calendar4'
+** Message: Lost the name, shutting down.
+
+(bamfdaemon:1343): Gdk-WARNING **: bamfdaemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(notify-osd:1674): Gdk-WARNING **: notify-osd: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(indicator-keyboard-service:1622): Gdk-WARNING **: indicator-keyboard-service: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+Activating service name='org.gtk.vfs.Daemon'
+Successfully activated service 'org.gtk.vfs.Daemon'
+Activating service name='org.ayatana.bamf'
+Successfully activated service 'org.ayatana.bamf'
+Activating service name='com.canonical.indicator.keyboard'
+Activating service name='org.gnome.ScreenSaver'
+Successfully activated service 'org.gnome.ScreenSaver'
+Activating service name='org.freedesktop.Notifications'
+Successfully activated service 'org.freedesktop.Notifications'
+Activating service name='ca.desrt.dconf'
+Successfully activated service 'ca.desrt.dconf'
+Activating service name='org.gnome.evolution.dataserver.Sources2'
+Successfully activated service 'com.canonical.indicator.keyboard'
+Activating service name='org.gtk.Private.UDisks2VolumeMonitor'
+Successfully activated service 'org.gtk.Private.UDisks2VolumeMonitor'
+Activating service name='org.gtk.Private.MTPVolumeMonitor'
+Successfully activated service 'org.gtk.Private.MTPVolumeMonitor'
+Activating service name='org.gtk.Private.AfcVolumeMonitor'
+Successfully activated service 'org.gtk.Private.AfcVolumeMonitor'
+Activating service name='org.gtk.Private.GPhoto2VolumeMonitor'
+Activating service name='org.gnome.GConf'
+Successfully activated service 'org.gnome.GConf'
+module-cache-reaper-Message: Scanning data directories
+module-cache-reaper-Message: Scanning cache directories
+Successfully activated service 'org.gnome.evolution.dataserver.Sources2'
+Activating service name='org.gnome.evolution.dataserver.Calendar4'
+Successfully activated service 'org.gtk.Private.GPhoto2VolumeMonitor'
+Successfully activated service 'org.gnome.evolution.dataserver.Calendar4'
+** Message: Lost the name, shutting down.
+
+(bamfdaemon:1348): Gdk-WARNING **: bamfdaemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(notify-osd:1727): Gdk-WARNING **: notify-osd: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+
+(indicator-keyboard-service:1675): Gdk-WARNING **: indicator-keyboard-service: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+g_dbus_connection_real_closed: Remote peer vanished with error: Error receiving message: Connection reset by peer (g-io-error-quark, 0). Exiting.
+Activating service name='org.gtk.vfs.Daemon'
+Successfully activated service 'org.gtk.vfs.Daemon'
+Activating service name='org.ayatana.bamf'
+Successfully activated service 'org.ayatana.bamf'
+Activating service name='com.canonical.indicator.keyboard'
+Activating service name='org.gnome.ScreenSaver'
+Successfully activated service 'org.gnome.ScreenSaver'
+Activating service name='org.freedesktop.Notifications'
+Successfully activated service 'org.freedesktop.Notifications'
+Successfully activated service 'com.canonical.indicator.keyboard'
+Activating service name='ca.desrt.dconf'
+Successfully activated service 'ca.desrt.dconf'
+Activating service name='org.gnome.evolution.dataserver.Sources2'
+Activating service name='org.gtk.Private.UDisks2VolumeMonitor'
+Activating service name='org.gnome.GConf'
+Successfully activated service 'org.gnome.GConf'
+Successfully activated service 'org.gtk.Private.UDisks2VolumeMonitor'
+Activating service name='org.gtk.Private.MTPVolumeMonitor'
+Successfully activated service 'org.gtk.Private.MTPVolumeMonitor'
+Activating service name='org.gtk.Private.AfcVolumeMonitor'
+Successfully activated service 'org.gtk.Private.AfcVolumeMonitor'
+Activating service name='org.gtk.Private.GPhoto2VolumeMonitor'
+Successfully activated service 'org.gtk.Private.GPhoto2VolumeMonitor'
+module-cache-reaper-Message: Scanning data directories
+module-cache-reaper-Message: Scanning cache directories
+Successfully activated service 'org.gnome.evolution.dataserver.Sources2'
+Activating service name='org.gnome.evolution.dataserver.Calendar4'
+Successfully activated service 'org.gnome.evolution.dataserver.Calendar4'
+** Message: Lost the name, shutting down.
+Activating service name='com.canonical.Unity.Scope.Home'
+Successfully activated service 'com.canonical.Unity.Scope.Home'
+
+(unity-scope-home:2026): unity-scope-home-WARNING **: platform-info.vala:112: Unable to read SIM properties: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.ofono was not provided by any .service files
+Activating service name='com.canonical.Unity.Scope.Applications'
+Activating service name='com.canonical.Unity.Scope.File.Gdrive'
+Activating service name='com.canonical.Unity.Scope.LocalFiles'
+Activating service name='org.gnome.zeitgeist.Engine'
+Activating service name='org.gnome.zeitgeist.SimpleIndexer'
+Successfully activated service 'org.gnome.zeitgeist.Engine'
+
+(process:2042): unity-files-daemon-WARNING **: folder.vala:65: Failed to read favorites: Failed to open file '/home/ilya/.gtk-bookmarks': No such file or directory
+
+(zeitgeist-datahub:2068): GLib-GObject-WARNING **: invalid (NULL) pointer instance
+
+(zeitgeist-datahub:2068): GLib-GObject-CRITICAL **: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+Successfully activated service 'com.canonical.Unity.Scope.LocalFiles'
+Successfully activated service 'org.gnome.zeitgeist.SimpleIndexer'
+Successfully activated service 'com.canonical.Unity.Scope.File.Gdrive'
+Successfully activated service 'com.canonical.Unity.Scope.Applications'
+Activating service name='org.freedesktop.Telepathy.AccountManager'
+Successfully activated service 'org.freedesktop.Telepathy.AccountManager'
+Activating service name='com.canonical.indicators.webcredentials'
+Successfully activated service 'com.canonical.indicators.webcredentials'
+Activating service name='com.canonical.Unity.Webapps.Service'
+Successfully activated service 'com.canonical.Unity.Webapps.Service'
+** Message: Investigating webapp: unity-webapps-common 
+
+
+** (process:2253): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-qml 
+
+
+** (process:2253): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-qml-doc 
+
+
+** (process:2253): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-qml-examples 
+
+
+** (process:2253): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-service 
+
+
+** (process:2253): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-amazoncloudreader 
+
+** Message: Investigating webapp: unity-webapps-bbcnews 
+
+** Message: Investigating webapp: unity-webapps-cnn-news 
+
+** Message: Investigating webapp: unity-webapps-deezer 
+
+** Message: Investigating webapp: unity-webapps-dev 
+
+
+** (process:2253): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-deviantart 
+
+** Message: Investigating webapp: unity-webapps-facebookmessenger 
+
+** Message: Investigating webapp: unity-webapps-googlenews 
+
+** Message: Investigating webapp: unity-webapps-googleplusgames 
+
+
+** (process:2253): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-grooveshark 
+
+** Message: Investigating webapp: unity-webapps-hulu-player 
+
+** Message: Investigating webapp: unity-webapps-lastfm-radio 
+
+** Message: Investigating webapp: unity-webapps-launchpad 
+
+** Message: Investigating webapp: unity-webapps-librefm 
+
+** Message: Investigating webapp: unity-webapps-linkedin 
+
+** Message: Investigating webapp: unity-webapps-mail-ru 
+
+** Message: Investigating webapp: unity-webapps-newsblur 
+
+** Message: Investigating webapp: unity-webapps-pandora 
+
+** Message: Investigating webapp: unity-webapps-pandora-com 
+
+** Message: Investigating webapp: unity-webapps-qml-autopilot 
+
+
+** (process:2253): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-qq-mail 
+
+** Message: Investigating webapp: unity-webapps-reddit 
+
+** Message: Investigating webapp: unity-webapps-tumblr 
+
+** Message: Investigating webapp: unity-webapps-twitter 
+
+** Message: Investigating webapp: unity-webapps-vkcom 
+
+** Message: Investigating webapp: unity-webapps-wordpress 
+
+** Message: Investigating webapp: unity-webapps-wordpress-com 
+
+** Message: Investigating webapp: unity-webapps-yahoonews 
+
+** Message: Investigating webapp: unity-webapps-yandex-music 
+
+** Message: Investigating webapp: unity-webapps-yandexmail 
+
+** Message: Investigating webapp: unity-webapps-yandexmusic 
+
+** Message: Investigating webapp: unity-webapps-yandexnews 
+
+** Message: Investigating webapp: unity-webapps-qml 
+
+
+** (process:2253): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-qml-examples 
+
+
+** (process:2253): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-service 
+
+
+** (process:2253): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-gmail 
+
+** Message: Investigating webapp: unity-webapps-googlecalendar 
+
+** Message: Investigating webapp: unity-webapps-googledocs 
+
+** Message: Investigating webapp: unity-webapps-googleplus 
+
+** Message: Investigating webapp: unity-webapps-livemail 
+
+** Message: Investigating webapp: unity-webapps-yahoomail 
+
+** Message: Investigating webapp: unity-webapps-youtube 
+
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/ilya/.cache/oneconf/6b3d0c1cbe524e70059ed16c5452781e/other_hosts'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.canonical.Unity.Scope.File.Gdrive'
+Activating service name='com.canonical.Unity.Scope.Music'
+Successfully activated service 'com.canonical.Unity.Scope.Music'
+Successfully activated service 'com.canonical.Unity.Scope.File.Gdrive'
+Activating service name='com.ubuntu.SoftwareCenterDataProvider'
+Successfully activated service 'com.ubuntu.SoftwareCenterDataProvider'
+Activating service name='org.freedesktop.Geoclue.Master'
+Successfully activated service 'org.freedesktop.Geoclue.Master'
+** Message: GSettings key 'gps-baudrate' initialised to '0'
+** Message: GSettings key 'gps-device' initialised to '(null)'
+Activating service name='org.freedesktop.Geoclue.Providers.UbuntuGeoIP'
+Successfully activated service 'org.freedesktop.Geoclue.Providers.UbuntuGeoIP'
+No handlers could be found for logger "softwarecenter.region"
+Activating service name='com.ubuntu.sso'
+/usr/lib/python2.7/dist-packages/gi/overrides/GLib.py:523: Warning: Source ID 23 was not found when attempting to remove it
+  super(MainLoop, self).run()
+Successfully activated service 'com.ubuntu.sso'
+/usr/lib/python2.7/dist-packages/gi/overrides/GLib.py:535: Warning: Source ID 20 was not found when attempting to remove it
+  return super(MainContext, self).iteration(may_block)
+
+(zeitgeist-datahub:2068): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/ilya/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/ilya/.local/share/recently-used.xbel': Permission denied.

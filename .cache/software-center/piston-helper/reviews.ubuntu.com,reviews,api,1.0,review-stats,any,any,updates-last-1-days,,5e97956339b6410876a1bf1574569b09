@@ -1,0 +1,195 @@
+status: 200
+content-length: 4680
+via: 1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: http://reviews.ubuntu.com/reviews/api/1.0/review-stats/any/any/updates-last-1-days/
+x-cache: HIT from papeda.canonical.com
+age: 134
+expires: Thu, 30 Oct 2014 21:56:45 GMT
+vary: Accept,Accept-Encoding
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Thu, 30 Oct 2014 17:56:45 GMT
+connection: close
+-content-encoding: gzip
+cache-control: max-age=14400
+date: Thu, 30 Oct 2014 17:56:45 GMT
+content-type: application/json; charset=utf-8
+x-cache-lookup: HIT from papeda.canonical.com:3128
+-varied-accept-encoding: gzip, deflate
+
+[
+    {
+        "ratings_total": 13, 
+        "ratings_average": "3.15", 
+        "app_name": "", 
+        "package_name": "webservice-office-zoho", 
+        "histogram": "[2, 3, 2, 3, 3]"
+    }, 
+    {
+        "ratings_total": 11, 
+        "ratings_average": "2.73", 
+        "app_name": "", 
+        "package_name": "kgpg", 
+        "histogram": "[4, 2, 1, 1, 3]"
+    }, 
+    {
+        "ratings_total": 42, 
+        "ratings_average": "3.57", 
+        "app_name": "", 
+        "package_name": "lastfm", 
+        "histogram": "[9, 2, 2, 14, 15]"
+    }, 
+    {
+        "ratings_total": 19, 
+        "ratings_average": "4.68", 
+        "app_name": "", 
+        "package_name": "handbrake", 
+        "histogram": "[0, 0, 2, 2, 15]"
+    }, 
+    {
+        "ratings_total": 18, 
+        "ratings_average": "3.78", 
+        "app_name": "", 
+        "package_name": "qwbfsmanager", 
+        "histogram": "[3, 0, 4, 2, 9]"
+    }, 
+    {
+        "ratings_total": 38, 
+        "ratings_average": "4.13", 
+        "app_name": "", 
+        "package_name": "gprename", 
+        "histogram": "[0, 3, 7, 10, 18]"
+    }, 
+    {
+        "ratings_total": 161, 
+        "ratings_average": "4.62", 
+        "app_name": "", 
+        "package_name": "supertux", 
+        "histogram": "[3, 5, 7, 20, 126]"
+    }, 
+    {
+        "ratings_total": 525, 
+        "ratings_average": "4.86", 
+        "app_name": "", 
+        "package_name": "gparted", 
+        "histogram": "[4, 2, 6, 40, 473]"
+    }, 
+    {
+        "ratings_total": 12, 
+        "ratings_average": "2.33", 
+        "app_name": "", 
+        "package_name": "kexi", 
+        "histogram": "[6, 1, 2, 1, 2]"
+    }, 
+    {
+        "ratings_total": 462, 
+        "ratings_average": "4.37", 
+        "app_name": "", 
+        "package_name": "thunderbird", 
+        "histogram": "[19, 19, 35, 86, 303]"
+    }, 
+    {
+        "ratings_total": 102, 
+        "ratings_average": "3.59", 
+        "app_name": "", 
+        "package_name": "network-manager-gnome", 
+        "histogram": "[11, 12, 20, 24, 35]"
+    }, 
+    {
+        "ratings_total": 6, 
+        "ratings_average": "5.00", 
+        "app_name": "", 
+        "package_name": "quiterss", 
+        "histogram": "[0, 0, 0, 0, 6]"
+    }, 
+    {
+        "ratings_total": 6, 
+        "ratings_average": "4.67", 
+        "app_name": "", 
+        "package_name": "glmark2", 
+        "histogram": "[0, 0, 0, 2, 4]"
+    }, 
+    {
+        "ratings_total": 110, 
+        "ratings_average": "3.35", 
+        "app_name": "", 
+        "package_name": "epiphany-browser", 
+        "histogram": "[19, 14, 18, 28, 31]"
+    }, 
+    {
+        "ratings_total": 132, 
+        "ratings_average": "1.35", 
+        "app_name": "", 
+        "package_name": "unity-webapps-common", 
+        "histogram": "[114, 3, 6, 5, 4]"
+    }, 
+    {
+        "ratings_total": 445, 
+        "ratings_average": "4.79", 
+        "app_name": "", 
+        "package_name": "stellarium", 
+        "histogram": "[8, 4, 4, 41, 388]"
+    }, 
+    {
+        "ratings_total": 51, 
+        "ratings_average": "3.49", 
+        "app_name": "", 
+        "package_name": "vendetta-online", 
+        "histogram": "[8, 4, 7, 19, 13]"
+    }, 
+    {
+        "ratings_total": 57, 
+        "ratings_average": "4.74", 
+        "app_name": "", 
+        "package_name": "hugin", 
+        "histogram": "[2, 1, 1, 2, 51]"
+    }, 
+    {
+        "ratings_total": 72, 
+        "ratings_average": "1.36", 
+        "app_name": "", 
+        "package_name": "unity-webapps-youtube", 
+        "histogram": "[60, 5, 3, 1, 3]"
+    }, 
+    {
+        "ratings_total": 33, 
+        "ratings_average": "4.09", 
+        "app_name": "", 
+        "package_name": "simutrans", 
+        "histogram": "[1, 5, 3, 5, 19]"
+    }, 
+    {
+        "ratings_total": 1208, 
+        "ratings_average": "4.37", 
+        "app_name": "", 
+        "package_name": "firefox", 
+        "histogram": "[80, 43, 74, 168, 843]"
+    }, 
+    {
+        "ratings_total": 138, 
+        "ratings_average": "4.57", 
+        "app_name": "", 
+        "package_name": "unity-tweak-tool", 
+        "histogram": "[6, 2, 6, 18, 106]"
+    }, 
+    {
+        "ratings_total": 140, 
+        "ratings_average": "4.46", 
+        "app_name": "", 
+        "package_name": "easytag", 
+        "histogram": "[8, 6, 5, 16, 105]"
+    }, 
+    {
+        "ratings_total": 1884, 
+        "ratings_average": "4.76", 
+        "app_name": "", 
+        "package_name": "vlc", 
+        "histogram": "[37, 19, 45, 149, 1634]"
+    }, 
+    {
+        "ratings_total": 653, 
+        "ratings_average": "2.80", 
+        "app_name": "", 
+        "package_name": "flashplugin-installer", 
+        "histogram": "[231, 82, 86, 93, 161]"
+    }
+]

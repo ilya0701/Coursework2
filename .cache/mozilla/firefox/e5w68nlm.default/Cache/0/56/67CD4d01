@@ -1,0 +1,3539 @@
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/compatible.css */
+
+.admin-menu-icon {
+float:left;
+padding:5px;
+}
+.admin-menu {
+padding:5px;
+border:1px solid #EEEEEE;
+}
+.admin-menu-text {
+padding:5px;
+}
+.admin-menu-item {
+padding: 0px 5px;
+}
+.admin-list-smalltable {
+text-align:left;
+border-spacing:1px;
+}
+.admin-list-table {
+width:100%;
+text-align:left;
+border-spacing:1px;
+}
+.admin-list-table form {
+margin:0px;
+}
+.admin-list-search {
+text-align:center;
+margin-top:5px;
+margin-bottom:5px;
+}
+.admin-list-field {
+text-align:left;
+padding-left:5px;
+padding-right:5px;
+}
+.admin-list-headerfield {
+text-align:left;
+padding:3px 5px;
+}
+.blocklist ul {
+list-style:none;
+padding:0px;
+margin:0px;
+}
+.alignleft {
+text-align:left;
+}
+.alignright {
+text-align:right;
+}
+.aligncenter {
+text-align:center;
+}
+.aligntop {
+vertical-align:top;
+}
+.floatright {
+float:right;
+}
+.floatleft {
+float:left;
+}
+.clearboth {
+clear:both;
+}
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.clearfix {
+display: inline-block;
+}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+.b {
+font-weight:bold;
+}
+.ext-link {
+background-color: transparent;
+background: url(./images/external.png) center right no-repeat;
+background-attachment: scroll;
+padding-right: 13px;
+}
+.ext-link-rtl {
+}
+.feed-link {
+background-color: transparent;
+background: url(./images/feed.png) center right no-repeat;
+background-attachment: scroll;
+padding: 2px 0;
+padding-right: 16px;
+}
+.feed-link-rtl {
+}
+.strike {
+text-decoration: line-through;
+}
+.commentbar-line1 {
+background:transparent;
+color:#000000;
+padding:3px 3px;
+text-align:center;
+}
+.commentbar-line2 {
+background:#E7E7E7;
+text-align:center;
+padding-left:3px;
+padding-right:3px;
+}
+.commentbar-line3 {
+background:#FFFFFF;
+border-bottom:1px solid #FFFFFF;
+border-top:1px solid #E7E7E7;
+color:#000000;
+padding:3px 3px;
+text-align:center;
+}
+.commenttitle {
+background:#F7F7F7;
+border:1px solid #E7E7E7;
+font-weight:bold;
+font-size:smaller;
+padding: 3px 0px;
+padding-left: 10px;
+}
+.comment-edit {
+font-style: italic;
+padding-top:1ex;
+}
+.comment-sig {
+color:#666666;
+padding-top:1ex;
+}
+.edit-perm-down {
+text-align:center;
+}
+.edit-perm-up {
+text-align:center;
+padding-right:10px;
+padding-left:10px;
+}
+.fieldhelp {
+font-size:0.8em;
+color:#666666;
+padding-left:0.8em;
+padding-right:0.8em;
+}
+.form-description {
+font-weight:bold;
+float:left;
+width:100px;
+text-align:right;
+padding-right:5px;
+display:block;
+}
+.form-field {
+padding-bottom:5px;
+margin-left:105px;
+}
+.checkboxes-list {
+list-style:none;
+padding:0px;
+margin:0px;
+}
+.checkboxes-list span {
+padding-left:5px;
+}
+.checkboxes-list .gldefault {
+font-weight:bold;
+}
+.missing-field {
+}
+.required-field {
+}
+.highlight {
+color:#000000;
+background-color:yellow;
+text-decoration:none;
+}
+.inputTable td {
+padding:4px;
+vertical-align:top;
+}
+.inputTable label {
+font-weight:bold;
+float:right;
+white-space:nowrap;
+}
+.moderation-cc {
+width:100%;
+}
+.moderation-cc-row {
+clear:both;
+height:80px;
+width:100%;
+}
+.moderation-cc-item {
+float:left;
+text-align:center;
+}
+.nowrap {
+white-space:nowrap;
+}
+.pagenav {
+text-align:center;
+}
+.row_center td {
+text-align:center;
+}
+.searchauth {
+background:transparent;
+color:#000000;
+text-align:left;
+}
+.searchdate {
+background:transparent;
+color:#000000;
+text-align:right;
+}
+.searchform-box {
+background:#E7E7E7;
+text-align:right;
+border-bottom:1px solid #CCCCCC;
+height:52px;
+padding:0px;
+padding-right: 4px;
+padding-left: 1px;
+margin:0px;
+}
+.searchform-elements {
+display:inline;
+position:relative;
+top:6px;
+}
+.searchform-elements input {
+font-size:0.9em;
+}
+.searchhits {
+background:transparent;
+color:#000000;
+text-align:right;
+}
+.searchresult-byline {
+color:green;
+}
+.site-slogan {
+color:#ffffff;
+background:transparent;
+}
+.sysmessage {
+position: relative;
+margin: 1em;
+margin-left: 4em;
+}
+.sysmessage img {
+position: absolute;
+left: -3.1em;
+top: -0.3em;
+border:none;
+float:left;
+padding-bottom:3px;
+padding-right:5px;
+}
+.stats-list-count {
+text-align:right;
+padding-left:5px;
+padding-right:5px;
+}
+.stats-header-title {
+text-align:left;
+width:90%;
+padding-left:5px;
+padding-right:5px;
+}
+.stats-header-count {
+text-align:left;
+width:10%;
+padding-left:5px;
+padding-right:5px;
+}
+.story {
+background:transparent;
+color:#000000;
+}
+.story h1 {
+background:transparent;
+color:#000000;
+font-weight:bold;
+padding-left:1px;
+}
+.story-body {
+padding:3px;
+}
+.story-featured {
+background:transparent;
+color:#000000;
+}
+.story-featured h1 {
+background:transparent;
+color:#000000;
+font-weight:bold;
+font-size:1.4em;
+padding-left:1px;
+}
+.story-icons {
+float:right;
+padding-top:10px;
+}
+.story-icons a {
+margin-left:5px;
+}
+.story-container {
+padding-right:9px;
+width:100%;
+vertical-align:top;
+}
+.story-footer {
+padding:3px;
+text-align:center;
+clear:both;
+}
+.story-footer p {
+padding:0px;
+margin:0px;
+}
+.story-information {
+padding:3px;
+font-size:0.85em;
+background:transparent;
+color:#000000;
+}
+.story-information p {
+padding:0px;
+margin:0px;
+}
+#token-expirynotice {
+padding:1em;
+border:1px solid #CCCCCC;
+background:#F7F7F7;
+}
+#token-expirytime {
+font-weight:bold;
+}
+.topicoption,
+.topicoption-off {
+}
+.warning {
+background:transparent;
+color:#FF0000;
+font-weight:bold;
+}
+.warningsmall {
+background:transparent;
+color:#FF0000;
+}
+.plugin {
+color:#000000;
+background-color:#EFEFEF;
+font-weight:normal;
+border:1px solid #CCCCCC;
+}
+.plugin th {
+color:#000000;
+background-color:#B7C1DC;
+padding:5px;
+text-align:left;
+}
+.plugin tr {
+vertical-align:top;
+}
+.plugin td {
+padding:2px 5px 2px 5px;
+}
+.pluginBG {
+color:#FEFEFE;
+background-color:#7398BA;
+}
+.pluginAltBG {
+background-color:#7398BA;
+}
+.pluginAltBG td {
+color:#FFFFFF
+}
+.pluginCellTitle {
+color:#666666;
+font-weight:bold;
+background-color:#E6E6E6;
+padding:5px;
+}
+.pluginCellFill {
+background-color:#F8FAFD;
+}
+.pluginCellText {
+color:#636363;
+font-weight:normal;
+}
+.pluginHeader {
+color:#204275;
+font-weight:bolder;
+padding-top:3px;
+padding-bottom:3px;
+}
+.pluginFooter, .pluginFooter td {
+background-color:#507AA1;
+color:#FFFFFF;
+}
+.pluginAlert {
+padding:5px 15px 5px 15px;
+color:#D8010E;
+background-color:#FEF1B4;
+font-weight:bold;
+}
+.pluginInfo {
+padding:5px 15px 5px 15px;
+color:#707070;
+background-color:#FEF1B4;
+font-weight:normal;
+}
+.pluginSubTable {
+color:#000000;
+background-color:#CCCCCC;
+font-weight:normal;
+border:1px solid #CCCCCC;
+}
+.pluginSubTable th {
+color:#000000;
+background-color:#C9D1E4;
+padding:5px;
+text-align:left;
+}
+.pluginSubTable tr {
+vertical-align:top;
+}
+.pluginSolidOutline {
+background-color:#CCCCCC;
+}
+.pluginSolidFill {
+background-color:#1A3955;
+}
+.pluginTitle {
+background-color:#507AA1;
+color:#F5F9FF;
+padding:4px;
+padding-left:6px;
+padding-right:6px;
+}
+.pluginCellSubTitle {
+background-color:#F7F7F7;
+color:#000000;
+padding:4px;
+padding-left:6px;
+padding-right:6px;
+}
+.pluginTinyText {
+font-size:0.70em;
+}
+.pluginSmallText {
+font-size:0.8em;
+}
+.pluginMediumText {
+font-size:1em;
+}
+.pluginLargeText {
+font-size:1.25em;
+}
+.pluginAltText {
+color:#FFFFFF;
+}
+.pluginRow1, .pluginRow1 td {
+color:#000000;
+background-color:#F7F7F7;
+line-height:120%;
+}
+.pluginRow2, .pluginRow2 td {
+color:#000000;
+background-color:#E7E7E7;
+line-height: 120%;
+}
+.pluginRow1 .pluginRollOver,
+.pluginRow2 .pluginRollOver,
+.pluginRollOver {
+color:#000000;
+background-color:#FFFFFF;
+line-height:120%;
+}
+.pluginRow1 .pluginRollOut,
+.pluginRow2 .pluginRollOut,
+.pluginRollOut {
+color:#000000;
+background-color:#F7F7F7;
+line-height:120%;
+}
+.pluginLinks A:link {
+color:#000000;
+font-style:normal;
+font-weight:normal;
+text-decoration:none;
+}
+.pluginLinks A:visited {
+color:#000000;
+font-style:normal;
+font-weight:normal;
+text-decoration:none;
+}
+.pluginLinks A:hover {
+color:#000000;
+font-style:normal;
+font-weight:normal;
+text-decoration:underline;
+}
+.pluginBreadCrumbs,
+.pluginBreadCrumbs A:link {
+color:#FFFFFF;
+font-style:normal;
+font-weight:normal;
+text-decoration:none;
+}
+.pluginBreadCrumbs A:visited {
+color:#FFFFFF;
+font-style:normal;
+font-weight:normal;
+text-decoration:none;
+}
+.pluginBreadCrumbs A:hover {
+color:#FFFFFF;
+font-style:normal;
+font-weight:normal;
+text-decoration:none;
+}
+a.pluginButton:link, a.pluginButton:visited {
+color:#000000;
+text-align:center;
+padding-top:2px;
+display:block;
+height:19px;
+text-decoration:none;
+background-color:transparent;
+}
+a.pluginButton:hover {
+color:blue;
+text-align:center;
+padding-top:2px;
+background:center url(./images/navbar/button_over.gif);
+background-repeat:repeat-x;
+display:block;
+height:19px;
+text-decoration:none;
+background-color:transparent;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/default.css */
+
+* {
+margin: 0;
+padding: 0;
+}
+html {
+display: block;
+}
+head, meta, script, style, title, param {
+display: none;
+}
+body {
+display: block;
+margin: 8px;
+}
+h1 {
+display: block;
+margin: 0.67em 0;
+font-size: 2em;
+font-weight: bolder;
+}
+h2 {
+display: block;
+margin: 0.75em 0;
+font-size: 1.5em;
+font-weight: bolder;
+}
+h3 {
+display: block;
+margin: 0.83em 0;
+font-size: 1.17em;
+font-weight: bolder;
+}
+h4 {
+display: block;
+margin: 1.12em 0;
+font-size: 1em;
+font-weight: bolder;
+}
+h5 {
+display: block;
+margin: 1.5em 0;
+font-size: 0.83em;
+font-weight: bolder;
+}
+h6 {
+display: block;
+margin: 1.67em 0;
+font-size: 0.75em;
+font-weight: bolder;
+}
+address {
+display: block;
+font-style: italic;
+}
+p {
+display: block;
+margin: 1.12em 0;
+}
+pre {
+display: block;
+margin: 1em 0;
+font-family: monospace;
+white-space: pre;
+}
+blockquote {
+display: block;
+margin: 1.12em 40px;
+}
+q:before {
+content: open-quote;
+}
+q:after {
+content: close-quote;
+}
+cite {
+font-style: italic;
+}
+em {
+font-style: italic;
+}
+strong {
+font-weight: bolder;
+}
+var {
+font-style: italic;
+}
+dfn {
+font-style: italic;
+}
+code {
+font-family: monospace;
+}
+samp {
+font-family: monospace;
+}
+kbd {
+font-family: monospace;
+}
+abbr[title], acronym[title] {
+border-bottom: 1px dotted;
+}
+a:link, a:visited {
+text-decoration: underline;
+}
+a:focus  {
+outline: thin dotted invert;
+}
+ul {
+list-style-type: disc;
+display: block;
+margin: 1.12em 0;
+padding-left: 40px;
+}
+ol {
+list-style-type: decimal;
+display: block;
+margin: 1.12em 0;
+padding-left: 40px;
+}
+li {
+display: list-item;
+}
+ul ul,
+ul ol,
+ul dl,
+ol ul,
+ol ol,
+ol dl,
+dl ul,
+dl ol,
+dl dl {
+margin-top: 0;
+margin-bottom: 0;
+}
+ol ul,
+ul ul {
+list-style-type: circle;
+}
+ol ol ul,
+ol ul ul,
+ul ol ul,
+ul ul ul {
+list-style-type: square;
+}
+dl {
+display: block;
+margin: 1.12em 0;
+}
+dt {
+display: block;
+}
+dd {
+display: block;
+margin-left: 40px;
+}
+ins {
+text-decoration: underline;
+}
+del {
+text-decoration: line-through;
+}
+form {
+display: block;
+margin: 1.12em 0;
+}
+fieldset{
+display: block;
+margin: 1.12em 0;
+}
+button {
+display: inline-block;
+}
+textarea {
+display: inline-block;
+font-size: small;
+}
+input {
+}
+select {
+display: inline-block;
+}
+table {
+display: table;
+margin-top: 0;
+margin-bottom: 0;
+border-spacing: 2px;
+border-collapse: separate;
+text-indent: 0;
+}
+table[align="left"] {
+margin-right: auto;
+}
+table[align="center"] {
+margin-left: auto;
+margin-right: auto;
+}
+table[align="right"] {
+margin-left: auto;
+}
+caption {
+display: table-caption;
+text-align: center;
+}
+thead {
+display: table-header-group;
+vertical-align: middle;
+}
+tbody {
+display: table-row-group;
+vertical-align: middle;
+}
+tfoot {
+display: table-footer-group;
+vertical-align: middle;
+}
+tr {
+display: table-row;
+vertical-align: inherit;
+}
+col {
+display: table-column;
+}
+colgroup {
+display: table-column-group;
+}
+table>tr {
+vertical-align: middle;
+}
+th,
+td {
+vertical-align: top;
+}
+th {
+display: table-cell;
+font-weight: bolder;
+text-align: center;
+}
+td {
+display: table-cell;
+text-align: inherit;
+padding: 2px;
+}
+tr[align="left"],
+th[align="left"],
+td[align="left"] {
+text-align: left;
+}
+td[align="left"]>table,
+td[align="left"]>table,
+td[align="left"]>table {
+margin-right: auto;
+}
+tr[align="center"],
+th[align="center"],
+td[align="center"] {
+text-align: center;
+}
+td[align="center"]>table,
+td[align="center"]>table,
+td[align="center"]>table {
+margin-left: auto;
+margin-right: auto;
+}
+tr[align="right"],
+th[align="right"],
+td[align="right"] {
+text-align: right;
+}
+td[align="right"]>table,
+td[align="right"]>table,
+td[align="right"]>table {
+margin-left: auto;
+}
+tr[valign="top"],
+th[valign="top"],
+td[valign="top"] {
+vertical-align: top;
+}
+tr[valign="middle"],
+th[valign="middle"],
+td[valign="middle"] {
+vertical-align: middle;
+}
+tr[align="bottom"],
+th[align="bottom"],
+td[align="bottom"] {
+vertical-align: bottom;
+}
+a img {
+border: 2px solid;
+}
+hr {
+display: block;
+height: 2px;
+border: 1px inset;
+margin: 0.5em auto;
+}
+sub {
+vertical-align: sub;
+font-size: 0.83em;
+line-height: normal;
+}
+sup {
+vertical-align: super;
+font-size: 0.83em;
+line-height: normal;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/common.css */
+
+body {
+margin: 0;
+padding: 0;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+line-height: 1.25;
+}
+a:link {
+color: #033987;
+text-decoration: none;
+}
+a:visited {
+color: #5c3566;
+}
+a:hover {
+text-decoration: underline;
+}
+*:first-child+html body {
+font-size: small;
+}
+* html body {
+font-size: small;
+}
+pre {
+overflow: auto;
+}
+* html pre {
+width: 95%;
+}
+table {
+border-spacing: 0;
+font-size: 100%;
+}
+ul,
+ol {
+list-style-position: inside;
+}
+fieldset {
+margin: 0 0 1em 0;
+padding: 8px;
+border: 1px solid #CCCCCC;
+}
+fieldset legend {
+display: inline;
+padding: 2px 4px;
+}
+form.basic fieldset{
+margin: 0;
+border: none;
+}
+form.basic legend {
+display: none;
+}
+img {
+vertical-align: bottom;
+}
+a img {
+border: none;
+}
+input,
+select,
+textarea {
+box-sizing: border-box;
+-ms-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+font-family: Verdana, Arial, Meiryo, "Hiragino Kaku Gothic Pro", sans-serif;
+}
+input.text {
+}
+input[type="checkbox"] {
+margin: 0 0.3em;
+}
+input.submit {
+}
+option {
+padding-right: 4px;
+}
+iframe[width="100%"] {
+width: 99%;
+}
+.user_basic {
+padding: 0.5em 2em;
+}
+hr.separator {
+display: none;
+}
+.speech {
+overflow: hidden;
+position: absolute;
+left: -999px;
+width: 0;
+height: 0;
+}
+form[name="change"] select[name="lang"],
+form[name="change"] select[name="lang"] option {
+width: 99%;
+font-size: 95%;
+}
+div.pagenav {
+text-align: center;
+line-height: 1.5;
+}
+.pluginAlert {
+margin-bottom: 1em;
+}
+form.basic {
+margin: 0;
+padding: 0;
+}
+form.basic p.message {
+margin: 0 0 1em 0;
+padding: 0;
+}
+form.basic ul.submit {
+margin: 0;
+padding: 0;
+}
+form.basic ul.submit li {
+display: inline;
+margin: 0;
+padding: 0;
+}
+form.compact {
+margin: 0;
+padding: 0;
+}
+form.compact p.message {
+margin: 0 0 1em 0;
+padding: 0;
+}
+form.compact dl {
+margin: 0 0 1em 0;
+padding: 0;
+}
+form.compact dl:after {
+content: "";
+display: block;
+clear: both;
+height: 1px;
+overflow: hidden;
+}
+* html form.compact dl {
+height: 1%;
+overflow: visible;
+}
+form.compact dl dt {
+float: left;
+clear: left;
+width: 25%;
+margin: 0 0 0.5em 0;
+padding: 0;
+}
+form.compact dl dd {
+float: left;
+width: 75%;
+margin: 0 0 0.5em 0;
+padding: 0;
+}
+form.compact dl dd.description {
+margin: -0.5em 0 0.5em 25%;
+padding: 0;
+}
+* html form.compact dl dd.description {
+margin-left: 12.5%;
+}
+form.compact p.description,
+form.compact div.description {
+margin: 0 0 1em 0;
+padding: 0;
+}
+body.js_off form.compact input.text,
+body.js_off form.compact textarea {
+width: 98%;
+}
+form.compact ul.submit {
+margin: 0;
+padding: 0;
+}
+form.compact ul.submit li {
+display: inline;
+margin: 0;
+padding: 0;
+}
+form.linear {
+margin: 0;
+padding: 0;
+}
+form.linear p.message {
+margin: 0 0 1em 0;
+padding: 0;
+}
+form.linear dl {
+margin: 0 0 1em 0;
+padding: 0;
+}
+form.linear dl dt {
+margin: 0;
+padding: 0;
+font-weight: bold;
+}
+form.linear dl dd {
+margin: 0 0 0.5em 0;
+padding: 0;
+}
+form.linear dl dd.description {
+margin: -0.5em 0 0.5em 0;
+padding: 0;
+}
+form.linear p.description,
+form.linear div.description {
+margin: 0 0 1em 0;
+padding: 0;
+}
+form.linear ul.submit {
+margin: 0;
+padding: 0;
+}
+form.linear ul.submit li {
+display: inline;
+margin: 0;
+padding: 0;
+}
+form dl.notes {
+margin: 0 0 1em 0;
+padding: 8px;
+border: 1px solid #000000;
+background: #FFFFE1;
+}
+form dl.notes dt {
+margin: 0 0 0.5em 0;
+padding: 0 0 0 24px;
+border-bottom: 1px solid #000000;
+background: url(./images/icon_info.png) no-repeat 0 0;
+font-weight: bold;
+}
+form dl.notes dd {
+}
+form dl.notes dd ul {
+list-style-position: inside;
+margin: 0;
+padding: 0;
+}
+form dl.notes dd ul li {
+margin: 0;
+padding: 0;
+}
+ul.compact {
+margin: 0;
+padding: 0;
+}
+ul.compact li {
+display: inline;
+margin: 0;
+padding: 0;
+}
+.gl-pagenav {
+text-align: center;
+color: #CCC;
+margin: 0 0 1.5em;
+}
+.gl-pagenav a,
+.gl-pagenav b {
+display: inline-block;
+margin: 1px;
+padding: 2px 7px;
+background: transparent;
+border: 1px solid #E7E7E7;
+}
+.gl-pagenav b {
+color: #222;
+}
+.gl-pagenav a:hover {
+background: #EEE;
+border: 1px solid #CCC;
+}
+.gl-pagenav span {
+display: inline-block;
+padding: 4px;
+line-height: 1.7;
+color: #999;
+}
+.gl-pagenav span a {
+margin: 0;
+padding: 2px 0;
+background: transparent;
+border: none;
+}
+.gl-pagenav span a:hover {
+background: transparent;
+border: none;
+}
+.bc_navigation {
+margin: 1.12em 0;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/layout.css */
+
+body {
+background: #eeeeec url('./images/css/bg.png') repeat-x 0 0;
+}
+div#container {
+position: relative;
+width: 960px;
+margin: 1em auto;
+padding: 12px;
+text-align: left;
+border: 1px solid #656663;
+background: white;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+-webkit-box-shadow: 0px 0px 8px 1px #333;
+-moz-box-shadow: 0px 0px 8px 1px #333;
+box-shadow: 0px 0px 8px 1px #333;
+}
+div#container div#header {
+height: 120px;
+border: 1px solid #656663;
+background: transparent url('./images/css/bg_header.png') repeat-x 0 0;
+margin-bottom: 12px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: 0px 0px 2px 1px #888;
+-moz-box-shadow: 0px 0px 2px 1px #888;
+box-shadow: 0px 0px 2px 1px #888;
+}
+div#container div#header div#header-content {
+margin: 0 auto;
+padding: 0;
+}
+div#container div#header h1.site_name {
+display: inline;
+margin: 20px 16px 0;
+padding: 0;
+float: left;
+}
+div#container div#header p.site_slogan {
+margin: 0;
+padding: 10px 16px 0;
+color: #FFFFFF;
+text-align: right;
+}
+div#container div#navigation {
+background: #dbddd9 url('./images/css/menu_bg.png') repeat-x 0 0;
+border: 1px solid #939490;
+margin: auto;
+margin-bottom: 12px;
+width: 95%;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: 0px 0px 2px 1px #aaa;
+-moz-box-shadow: 0px 0px 2px 1px #aaa;
+box-shadow: 0px 0px 2px 1px #aaa;
+}
+div#container div#navigation ul {
+list-style-type: none;
+margin: 0 1em;
+padding: 0;
+}
+div#container div#navigation ul li.menuitem {
+float: left;
+display: block;
+}
+div#container div#navigation ul li.menuitem a,
+div#container div#navigation ul li.menuitem a:link,
+div#container div#navigation ul li.menuitem a:visited {
+float: left;
+display: block;
+height: 2.3em;
+line-height: 2.2em;
+padding: 0 0.8em;
+border-left: 1px dotted #939490;
+text-decoration: none;
+color: #2E3436;
+font-size: 13px;
+}
+div#container div#navigation ul li.menuitem a:hover,
+div#container div#navigation ul li.menuitem a:focus,
+div#container div#navigation ul li.menuitem a:active {
+background: #ededeb url('./images/css/menu_bg_active.png') repeat-x 0 0;
+text-decoration: underline;
+}
+div#container div#navigation ul li.last-child {
+}
+div#container div#navigation ul li.last-child a,
+div#container div#navigation ul li.last-child a:link,
+div#container div#navigation ul li.last-child a:visited {
+padding-right: 1em;
+border-right: 1px dotted #939490;
+}
+div#container div#navigation ul li.last-child a:hover,
+div#container div#navigation ul li.last-child a:focus,
+div#container div#navigation ul li.last-child a:active {
+}
+div#container div#wrapper {
+overflow: visible;
+width: 100%;
+margin: 0 auto;
+padding: 0 0 8px;
+}
+div#container div#wrapper:after {
+content: "";
+display: block;
+clear: both;
+height: 1px;
+overflow: hidden;
+}
+* html div#container div#wrapper {
+height: 1%;
+overflow: visible;
+}
+body.left-center-right div#container div#wrapper {
+}
+body.left-center div#container div#wrapper {
+}
+body.center-right div#container div#wrapper {
+}
+body.center div#container div#wrapper {
+}
+body.js_off div#container div#wrapper {
+}
+div#container div#wrapper div#leftblocks {
+overflow: auto;
+float: left;
+width: 180px;
+margin-right: 780px;
+padding: 0;
+}
+body.js_off div#container div#wrapper div#leftblocks {
+float: left;
+margin-right: -180px;
+}
+div#container div#wrapper div#centerblocks {
+overflow: visible;
+}
+div#container div#wrapper div#centerblocks-content {
+padding: 0 8px;
+}
+body.left-center-right div#container div#wrapper div#centerblocks {
+float: left;
+width: 580px;
+margin-left: -770px;
+}
+body.left-center div#container div#wrapper div#centerblocks {
+float: left;
+width: 770px;
+margin-left: -770px;
+}
+body.center-right div#container div#wrapper div#centerblocks {
+float: left;
+width: 770px;
+margin-right: 180px;
+}
+body.center div#container div#wrapper div#centerblocks {
+width: 960px;
+margin: 0;
+padding: 0;
+}
+body.js_off div#container div#wrapper div#centerblocks {
+display: inline;
+float: left;
+width: 580px;
+margin-left: 190px;
+}
+div#container div#wrapper div#rightblocks {
+overflow: auto;
+float: left;
+width: 180px;
+margin-left: -180px;
+}
+body.js_off div#container div#wrapper div#rightblocks {
+float: right;
+margin: 0;
+}
+div#container div#footer {
+padding: 12px;
+border: 1px solid #656663;
+background: #ededeb;
+color: #223;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+}
+div#container div#footer-content {
+margin: 0 auto;
+}
+div#container div#footer a,
+div#container div#footer a:link,
+div#container div#footer a:visited {
+}
+div#container div#footer a:hover,
+div#container div#footer a:focus,
+div#container div#footer a:active {
+}
+div#container div#footer ul {
+list-style-type: none;
+list-style-position: outside;
+margin: 0;
+padding: 0;
+}
+div#container div#footer ul li {
+margin: 0;
+padding: 0;
+}
+div#container div#footer ul.copyright {
+float: left;
+}
+div#container div#footer ul li.copyright_notice {
+}
+div#container div#footer ul li.copyright_notice address {
+font-style: normal;
+}
+div#container div#footer ul.site_info {
+float: right;
+text-align: right;
+}
+div#container div#footer ul li.powered_by {
+}
+div#container div#footer ul li.execution_textandtime {
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/block.css */
+
+div#leftblocks ul,
+div#leftblocks ol,
+div#rightblocks ul,
+div#rightblocks ol {
+padding-left: 0;
+}
+li.listitem {
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.block-message {
+margin: 1.2em 0;
+padding: 0;
+border: 1px solid #939490;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 0px 0px 4px 1px #aaa;
+-moz-box-shadow: 0px 0px 4px 1px #aaa;
+box-shadow: 0px 0px 4px 1px #aaa;
+background: #eeeeec url("./images/css/bg_message_title.png") repeat-x scroll 0 0;
+}
+div#centerblocks div.block-message dl {
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.block-message dl dt {
+margin: 0;
+padding: 8px;
+color: #222;
+font-weight: bold;
+text-align: center;
+line-height: 1.5em;
+}
+div#centerblocks div.block-message dl dd {
+margin: 0;
+padding: 8px;
+font-weight: bold;
+}
+div.block-related {
+margin: 0 0 2em 0;
+padding: 0;
+}
+div.block-related h3 {
+margin: 0 0 0.5em 0;
+padding: 0;
+font-size: 100%;
+font-weight: bold;
+}
+div.block-related div.block-related-content {
+margin: 0;
+padding: 0;
+}
+div#centerblocks {
+margin-bottom: 12px;
+border-top: 1px solid #aaa;
+background: #fff url("./images/css/block_bg.png") repeat-x scroll 0 0;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+div#centerblocks p.welcome_msg {
+margin: 0 0 1.2em 0;
+padding: 10px 8px;
+}
+div#centerblocks p.welcome_msg a,
+div#centerblocks p.welcome_msg a:link,
+div#centerblocks p.welcome_msg a:visited {
+}
+div#centerblocks p.welcome_msg a:hover,
+div#centerblocks p.welcome_msg a:focus,
+div#centerblocks p.welcome_msg a:active {
+}
+div#centerblocks div.block-center {
+margin: 0 0 1em 0;
+padding: 0 0 2em 0;
+border-bottom: 1px solid #CCC;
+}
+div#centerblocks h2,
+div#centerblocks h3,
+div#centerblocks h4 {
+margin: 0 0 1em 0;
+padding: 0;
+font-weight: bold;
+}
+div#centerblocks div.block-center h2 {
+font-size: 125%;
+}
+div#centerblocks div.block-center h3 {
+font-size: 110%;
+}
+div#centerblocks div.block-center h4 {
+font-size: 100%;
+}
+div#centerblocks h2 img,
+div#centerblocks h3 img,
+div#centerblocks h4 img {
+vertical-align: middle;
+}
+div#centerblocks div.block-center div.block-center-content {
+margin: 0;
+padding: 0;
+}
+div#leftblocks {
+margin-right: 8px;
+}
+div#leftblocks div.block-list,
+div#leftblocks div.block-left {
+margin-bottom: 12px;
+border-top: 1px solid #aaa;
+padding: 8px;
+background: #fff url("./images/css/block_bg.png") repeat-x scroll 0 0;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+div#leftblocks div.block-list h2,
+div#leftblocks div.block-left h2 {
+margin: 0 0 0.5em 0;
+padding: 0 0 0.1em 0;
+font-size: 110%;
+font-weight: bold;
+}
+div#leftblocks div.block-list h2 img,
+div#leftblocks div.block-left h2 img {
+vertical-align: middle;
+}
+div#leftblocks div.block-list div.block-list-content,
+div#leftblocks div.block-left div.block-left-content {
+margin: 0;
+padding: 0;
+}
+div#leftblocks ul {
+margin: 0.8em 0;
+}
+div#rightblocks {
+margin-left: 8px;
+}
+div#rightblocks div.block-list,
+div#rightblocks div.block-right {
+margin-bottom: 12px;
+border-top: 1px solid #aaa;
+padding: 8px;
+background: #fff url("./images/css/block_bg.png") repeat-x scroll 0 0;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+div#rightblocks div.block-list h2,
+div#rightblocks div.block-right h2 {
+margin: 0 0 0.5em 0;
+padding: 0 0 0.1em 0;
+font-size: 110%;
+font-weight: bold;
+}
+div#rightblocks div.block-list h2 img,
+div#rightblocks div.block-right h2 img {
+vertical-align: middle;
+}
+div#rightblocks div.block-list div.block-list-content,
+div#rightblocks div.block-right div.block-right-content {
+margin: 0;
+padding: 0;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/option.css */
+
+li.adminoption {
+list-style: none outside;
+margin: 0;
+padding: 0;
+color: #333;
+}
+li.adminoption a,
+li.adminoption a:link,
+li.adminoption a:visited {
+}
+li.adminoption a:hover,
+li.adminoption a:focus,
+li.adminoption a:active {
+}
+li.adminoption_off {
+list-style: none outside;
+margin: 0;
+padding: 0;
+color: #333;
+}
+li.topicoption {
+list-style: none outside;
+margin: 0;
+padding: 0;
+color: #333;
+}
+li.topicoption a,
+li.topicoption a:link,
+li.topicoption a:visited {
+}
+li.topicoption a:hover,
+li.topicoption a:focus,
+li.topicoption a:active {
+}
+li.topicoption_off {
+list-style: none outside;
+margin: 0;
+padding: 0;
+color: #333;
+}
+li.useroption {
+list-style: none outside;
+margin: 0;
+padding: 0;
+color: #333;
+}
+li.useroption a,
+li.useroption a:link,
+li.useroption a:visited {
+}
+li.useroption a:hover,
+li.useroption a:focus,
+li.useroption a:active {
+}
+li.useroption_off {
+list-style: none outside;
+margin: 0;
+padding: 0;
+color: #333;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/form.css */
+
+div#leftblocks div#block-left-search {
+margin: 0;
+padding: 0;
+border: 0;
+}
+div#leftblocks div#block-left-search form#searchform {
+position: absolute;
+top: 92px;
+right: 26px;
+margin: 0;
+padding: 0;
+}
+div#leftblocks div#block-left-search form#searchform div {
+margin: 0;
+padding: 0;
+background: transparent url('./images/css/search-right.png') no-repeat 0 0;
+width: 180px;
+height: 26px;
+line-height: 26px;
+padding: 2px 5px;
+}
+div#leftblocks div#block-left-search form#searchform div input {
+border: 0px solid transparent;
+height: 25px;
+background: transparent;
+line-height: 25px;
+}
+div#leftblocks div#block-left-search form#searchform div input.text {
+float: left;
+width: 145px;
+}
+div#leftblocks div#block-left-search form#searchform div input.submit {
+float: right;
+width: 30px;
+cursor: pointer;
+}
+div#leftblocks div#block-left-search form#searchform p {
+margin: 0;
+padding: 0;
+}
+#login_facebook{left:0px;width:141px;}
+#login_facebook{background:url('/images/oauth-login-with-sprite.png') no-repeat; background-position:0 0;}
+#login_twitter{left:0px;width:141px;}
+#login_twitter{background:url('/images/oauth-login-with-sprite.png') no-repeat; background-position: 0 -23px;}
+#login_linkedin{left:0px;width:141px;}
+#login_linkedin{background:url('/images/oauth-login-with-sprite.png') no-repeat; background-position: 0 -44px;}
+#login_google{left:0px;width:141px;}
+#login_google{background:url('/images/oauth-login-with-sprite.png') no-repeat; background-position: 0 -66px;}
+#login_yahoo{left:0px;width:141px;}
+#login_yahoo{background:url('/images/oauth-login-with-sprite.png') no-repeat; background-position: 0 -88px;}
+#login_microsoft{left:0px;width:141px;}
+#login_microsoft{background:url('/images/oauth-login-with-sprite.png') no-repeat; background-position: 0 -110px;}
+#login_github{left:0px;width:141px;}
+#login_github{background:url('/images/oauth-login-with-sprite.png') no-repeat; background-position: 0 -132px;}
+#login_openid{left:0px;width:141px;}
+#login_openid{background:url('/images/oauth-login-with-sprite.png') no-repeat; background-position: 0 -154px;}
+form#loginform input,
+form#loginform select,
+form.third-party-login input {
+width: 100%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+form#loginform dl {
+margin: 0;
+padding: 0;
+}
+form#loginform dl dt {
+margin: 0;
+padding: 0;
+}
+form#loginform dl dd {
+margin: 0;
+padding: 0;
+}
+form#loginform input.submit {
+height: 28px;
+font-size: 12px;
+}
+form#loginform ul.navi {
+list-style-position: outside;
+list-style-type: none;
+padding: 0;
+}
+form#loginform ul.navi li {
+margin: 0;
+padding: 0;
+}
+form.third-party-login {
+margin: 0.1em 0;
+}
+form.third-party-login div {
+position: relative;
+}
+form.third-party-login div img {
+position: absolute;
+left: 6px;
+top: 6px;
+}
+form.third-party-login div input.submit {
+text-indent: 24px;
+font-size: 12px;
+height: 28px;
+}
+div.third-party-login {
+width: 164px;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/story.css */
+
+div#centerblocks div.storytext {
+margin: 0 0 1em 0;
+padding: 0 0 1em;
+border-bottom: 1px solid #ccc;
+}
+div#centerblocks div.storytext h2.story_title {
+float: left;
+margin: 0 0 1em 0;
+padding: 0;
+font-size: 125%;
+font-weight: bold;
+}
+div#centerblocks div.storytext ul.icon {
+list-style-type: none;
+float: right;
+margin: 0;
+padding: 0;
+text-align: right;
+}
+div#centerblocks div.storytext ul.icon li{
+display: inline;
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.storytext ul.status {
+list-style-position: outside;
+list-style-type: none;
+margin: 0 0 1em 0;
+margin-left: 1em;
+padding: 0;
+float: left;
+}
+div#centerblocks div.storytext ul.status li {
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.storytext ul.status li dl {
+display: inline;
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.storytext ul.status li dl dt {
+display: inline;
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.storytext ul.status li dl dd {
+display: inline;
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.storytext div.story_introtext {
+margin: 0 0 2em 0;
+padding: 0;
+}
+div#centerblocks div.storytext span.story_image {
+float: left;
+width: 48px;
+height: 48px;
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.storytext ul.navi {
+list-style-type: none;
+clear: both;
+margin: 0 0 0.5em 0;
+padding: 0;
+text-align: center;
+}
+div#centerblocks div.storytext ul.navi li {
+display: inline;
+margin: 0 2px;
+padding: 0;
+}
+div#centerblocks div.storytext ul.feedback {
+list-style-type: none;
+margin: 0 0 0.5em 0;
+padding: 0;
+text-align: center;
+}
+div#centerblocks div.storytext ul.feedback li {
+display: inline;
+margin: 0 2px;
+padding: 0;
+}
+div#centerblocks div.featuredstorytext {
+margin: 0 0 1em 0;
+padding: 0 0 1em;
+border-bottom: 1px solid #ccc;
+}
+div#centerblocks div.featuredstorytext h2.story_title {
+float: left;
+margin: 0 0 1em 0;
+padding: 0;
+font-size: 125%;
+font-weight: bold;
+}
+div#centerblocks div.featuredstorytext ul.icon {
+list-style-type: none;
+float: right;
+margin: 0;
+padding: 0;
+text-align: right;
+}
+div#centerblocks div.featuredstorytext ul.icon li{
+display: inline;
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.featuredstorytext ul.status {
+list-style-position: outside;
+list-style-type: none;
+margin: 0;
+margin-left: 1em;
+padding: 0;
+float: left;
+}
+div#centerblocks div.featuredstorytext ul.status li {
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.featuredstorytext ul.status li dl {
+display: inline;
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.featuredstorytext ul.status li dl dt {
+display: inline;
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.featuredstorytext ul.status li dl dd {
+display: inline;
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.featuredstorytext div.story_introtext {
+margin: 0 0 2em 0;
+padding: 0;
+}
+div#centerblocks div.featuredstorytext span.story_image {
+float: left;
+width: 48px;
+height: 48px;
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.featuredstorytext ul.navi {
+list-style-type: none;
+clear: both;
+margin: 0 0 0.5em 0;
+padding: 0;
+text-align: center;
+}
+div#centerblocks div.featuredstorytext ul.navi li {
+display: inline;
+margin: 0 2px;
+padding: 0;
+}
+div#centerblocks div.featuredstorytext ul.feedback {
+list-style-type: none;
+margin: 0 0 0.5em 0;
+padding: 0;
+text-align: center;
+}
+div#centerblocks div.featuredstorytext ul.feedback li {
+display: inline;
+margin: 0 2px;
+padding: 0;
+}
+div#centerblocks div.archivestorytext {
+margin: 0 0 1em 0;
+padding: 0 0 1em;
+border-bottom: 1px solid #ccc;
+}
+div#centerblocks div.archivestorytext h2.story_title {
+float: left;
+margin: 0 0 1em 0;
+padding: 0;
+font-size: 125%;
+font-weight: bold;
+}
+div#centerblocks div.archivestorytext ul.icon {
+list-style-type: none;
+float: right;
+margin: 0;
+padding: 0;
+text-align: right;
+}
+div#centerblocks div.archivestorytext ul.icon li{
+display: inline;
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.archivestorytext ul.status {
+list-style-position: outside;
+list-style-type: none;
+margin: 0 0 1em 0;
+margin-left: 1em;
+padding: 0;
+float: left;
+}
+div#centerblocks div.archivestorytext ul.status li {
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.archivestorytext ul.status li dl {
+display: inline;
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.archivestorytext ul.status li dl dt {
+display: inline;
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.archivestorytext ul.status li dl dd {
+display: inline;
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.archivestorytext div.story_introtext {
+margin: 0 0 2em 0;
+padding: 0;
+}
+div#centerblocks div.archivestorytext span.story_image {
+float: left;
+width: 48px;
+height: 48px;
+margin: 0;
+padding: 0;
+}
+div#centerblocks div.archivestorytext ul.navi {
+list-style-type: none;
+clear: both;
+margin: 0 0 0.5em 0;
+padding: 0;
+text-align: center;
+}
+div#centerblocks div.archivestorytext ul.navi li {
+display: inline;
+margin: 0 2px;
+padding: 0;
+}
+div#centerblocks div.archivestorytext ul.feedback {
+list-style-type: none;
+margin: 0 0 0.5em 0;
+padding: 0;
+text-align: center;
+}
+div#centerblocks div.archivestorytext ul.feedback li {
+display: inline;
+margin: 0 2px;
+padding: 0;
+}
+div.story_introtext h2 {
+font-size: 116.7%;
+}
+div.story_introtext h3 {
+font-size: 108.4%;
+}
+div.story_introtext h4,
+div.story_introtext h5,
+div.story_introtext h6 {
+font-size: 100%;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/article/article.css */
+
+ul.list-whats-related {
+list-style-type: disc;
+margin: 0;
+margin-left: 8px;
+padding: 0;
+}
+ul.list-whats-related li {
+margin: 0;
+padding: 0;
+}
+ul.list-story-options {
+list-style-type: disc;
+margin: 0 0 0 8px;
+padding: 0;
+}
+ul.list-story-options li {
+margin: 0;
+padding: 0;
+}
+.block-related {
+float: left;
+width: 50%;
+margin: 0 0 1.5em 0;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/comment/comment.css */
+
+#commentarea {
+clear: both;
+}
+div.comments {
+margin: 0;
+padding: 0;
+text-align: center;
+}
+div.comments p.pagenav {
+margin: 0;
+padding: 0;
+text-align: center;
+}
+div.comments ul.status {
+list-style-type: none;
+margin: 1em 0 0.5em 0;
+padding: 0;
+}
+div.comments ul.status li {
+display: inline;
+margin: 0 2px;
+padding: 0;
+}
+div.comments ul.status li a {
+margin-left: 8px;
+}
+div.comments form#commentbar-selector {
+display: inline;
+}
+div.comments form#commentbar-selector fieldset {
+display: inline;
+}
+div.comments form#commentbar-selector ul {
+margin: 0;
+padding: 0;
+}
+div.comments form#commentbar-selector ul li {
+display: inline;
+margin: 0;
+padding: 0;
+}
+div.comments form#commentbar-comment {
+display: inline;
+}
+div.comments form#commentbar-comment fieldset {
+display: inline;
+}
+div.comments p.disclaimer {
+margin: 0.5em 0 1em 0;
+padding: 0;
+}
+div.comments ul.thread {
+list-style-position: outside;
+list-style-type: none;
+margin: 0 0 0.5em 0;
+padding: 0;
+text-align: left;
+}
+div.comments ul.thread li.title {
+display: inline;
+margin: 0;
+padding: 0;
+}
+div.comments ul.thread li.author {
+display: inline;
+margin: 0;
+margin-left: 8px;
+padding: 0;
+}
+div.comments ul.thread li.author:before {
+content: " - ";
+}
+div.comments div.block-comment-content {
+margin: 0;
+padding: 0;
+text-align: left;
+}
+div.comments div.level-0,
+div.comments ul.level-0 {
+margin-left: 0;
+}
+div.comments div.level-25,
+div.comments ul.level-25 {
+margin-left: 16px;
+}
+div.comments div.level-50,
+div.comments ul.level-50 {
+margin-left: 32px;
+}
+div.comments div.level-75,
+div.comments ul.level-75 {
+margin-left: 48px;
+}
+div.comments div.level-100,
+div.comments ul.level-100 {
+margin-left: 64px;
+}
+div.comments div.level-125,
+div.comments ul.level-125 {
+margin-left: 80px;
+}
+div.comments div.level-150,
+div.comments ul.level-150 {
+margin-left: 96px;
+}
+div.comments div.level-175,
+div.comments ul.level-175 {
+margin-left: 112px;
+}
+div.comments div.level-200,
+div.comments ul.level-200 {
+margin-left: 128px;
+}
+div.comments div.level-225,
+div.comments ul.level-225 {
+margin-left: 144px;
+}
+div.comments div.level-250,
+div.comments ul.level-250 {
+margin-left: 160px;
+}
+div.comments div.level-275,
+div.comments ul.level-275 {
+margin-left: 176px;
+}
+div.comments div.level-300,
+div.comments ul.level-300 {
+margin-left: 192px;
+}
+div.comments div.level-325,
+div.comments ul.level-325 {
+margin-left: 208px;
+}
+div.comments div.level-350,
+div.comments ul.level-350 {
+margin-left: 224px;
+}
+div.comments div.level-375,
+div.comments ul.level-375 {
+margin-left: 240px;
+}
+div.comments div.level-400,
+div.comments ul.level-400 {
+margin-left: 256px;
+}
+div.comments div.block-comment-content ul.status {
+list-style-position: outside;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+div.comments div.block-comment-content ul.status li.title {
+display: block;
+margin: 1em 0 0.5em 0;
+padding: 4px;
+border: 1px solid #E7E7E7;
+background: #F7F7F7;
+}
+div.comments div.block-comment-content ul.status li.author {
+display: block;
+margin: 0 0 1em 0;
+padding: 0;
+}
+div.comments div.block-comment-content div.comment {
+margin: 0 0 1em 0;
+padding: 0;
+}
+div.comments div.block-comment-content ul.navi {
+margin: 0 0 0.5em 0;
+padding: 0;
+}
+div.comments div.block-comment-content ul.navi:before {
+content: "[";
+}
+div.comments div.block-comment-content ul.navi:after {
+content: "]";
+}
+div.comments div.block-comment-content ul.navi li {
+display: inline;
+margin: 0 2px;
+padding: 0;
+}
+div.comments div.block-comment-content ul.navi li.permlink {
+margin: 0 2px 0 0;
+}
+form#reportcomment div.comment {
+margin: 0 0 1em 0;
+padding: 0;
+border-bottom: 1px solid #E7E7E7;
+}
+form#commentform dl dt.username {
+display: inline;
+}
+form#commentform dl dd.username {
+display: inline;
+margin-left: 8px;
+}
+form#commentform dl dd.username a {
+margin-left: 8px;
+}
+form#commentform dl dd.username a:before {
+content: "[";
+}
+form#commentform dl dd.username a:after {
+content: "]";
+}
+form#commentform dl dt.title {
+margin-top: 0.5em;
+}
+form#commentform dl.importantstuff dd ul {
+list-style-type: disc;
+margin: 0;
+padding: 0;
+}
+form#commentform dl.importantstuff dd ul li {
+margin: 0;
+margin-left: 8px;
+padding: 0;
+}
+form#commentform_advanced dl dt.username {
+display: inline;
+}
+form#commentform_advanced dl dd.username {
+display: inline;
+margin-left: 8px;
+}
+form#commentform_advanced dl dd.username a {
+margin-left: 8px;
+padding: 0 2px;
+}
+form#commentform_advanced dl dd.username a:before {
+content: "[";
+}
+form#commentform_advanced dl dd.username a:after {
+content: "]";
+}
+form#commentform_advanced dl dt.title {
+margin-top: 0.5em;
+}
+form#commentform_advanced dl.importantstuff dd ul {
+list-style-type: disc;
+margin: 0;
+padding: 0;
+}
+form#commentform_advanced dl.importantstuff dd ul li {
+margin: 0;
+margin-left: 8px;
+padding: 0;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/navbar/navbar.css */
+
+ul.navbar-breadcrumbs {
+list-style-position: outside;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+ul.navbar-breadcrumbs li {
+display: inline;
+}
+ul.navbar-breadcrumbs li a {
+margin: 0 8px;
+}
+#navcontainer {
+position: relative;
+padding: .2em;
+zoom: 1;
+-moz-border-radius-topleft: 5px;
+-webkit-border-top-left-radius: 5px;
+border-top-left-radius: 5px;
+-moz-border-radius-topright: 5px;
+-webkit-border-top-right-radius: 5px;
+border-top-right-radius: 5px;
+border: 1px solid #a6c9e2;
+border-bottom: 1px dotted #a6c9e2;
+}
+#navcontainer ul {
+margin: 0;
+padding: .2em .2em 0;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+border: 1px solid #4297d7;
+background: #5c9ccc url('jquery_ui/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png') 50% 50% repeat-x;
+color: #ffffff;
+font-weight: bold;
+}
+#navcontainer ul li {
+list-style: none;
+float: left;
+}
+#navcontainer ul li a {
+padding: 0;
+white-space: nowrap;
+-moz-border-radius-topleft: 5px;
+-webkit-border-top-left-radius: 5px;
+border-top-left-radius: 5px;
+-moz-border-radius-topright: 5px;
+-webkit-border-top-right-radius: 5px;
+border-top-right-radius: 5px;
+border: 1px solid #c5dbec;
+background: #dfeffc url(jquery_ui/images/ui-bg_glass_85_dfeffc_1x400.png) 50% 50% repeat-x;
+font-weight: bold;
+color: #2e6e9e;
+margin: 0 .2em 1px 0;
+position: relative;
+top: 1px;
+border-bottom: 0 !important;
+}
+#navcontainer ul li a span {
+float: left;
+padding: .5em 1em;
+text-decoration: none;
+color: #2e6e9e;
+}
+#navcontainer ul li a#current {
+border: 1px solid #79b7e7;
+background: #f5f8f9 url(jquery_ui/images/ui-bg_inset-hard_100_f5f8f9_1x100.png) 50% 50% repeat-x;
+font-weight: bold;
+padding-bottom: 1px;
+margin-bottom: 0;
+cursor: text;
+}
+#navcontainer ul li a#current span {
+color: #e17009;
+}
+#navcontainer ul li a:hover {
+border: 1px solid #79b7e7;
+background: #d0e5f5 url(jquery_ui/images/ui-bg_glass_75_d0e5f5_1x400.png) 50% 50% repeat-x;
+font-weight: bold;
+color: #1d5987;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/preferences/preferences.css */
+
+form#profile {
+width: 99%;
+margin-right: auto;
+margin-left: auto;
+}
+form#profile fieldset {
+margin: 0 0 1em 0;
+padding: 8px;
+border: 1px solid #CCCCCC;
+}
+form#profile fieldset legend {
+display: inline;
+padding: 2px 4px;
+}
+form#displayprefs p.checklist {
+margin: 0;
+padding: 0;
+}
+form#profile ul.checkboxes-list {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+form#profile ul.checkboxes-list li {
+margin-right: 0.5em;
+}
+form#displayprefs dl {
+margin-bottom: 0;
+}
+form#displayprefs dl dd input {
+margin-right: 2px;
+}
+form#profile dl dd.userphoto-photo img {
+display: block;
+margin: 8px;
+}
+form#profile span.gldefault {
+font-weight: bold;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/search/search.css */
+
+body.js_off form#advsearchform input.text,
+body.js_off form#advsearchform textarea {
+width: auto;
+}
+#advsearchform dt {
+text-align: right;
+margin: 0;
+}
+#advsearchform dd {
+padding-bottom: 0.4em;
+}
+#advsearchform label {
+height: 2em;
+line-height: 2em;
+padding-right: 2em;
+}
+#advsearchform #advsearchform-query {
+width: 55%;
+}
+#advsearchform select,
+#advsearchform input {
+width: 25%;
+vertical-align: middle;
+}
+#advsearchform span {
+padding: 0 0.4em;
+}
+#advsearchform ul .submit {
+width: 41.25%;
+margin-left: 25%;
+}
+dl#searchresults-found {
+margin: 0 0 1em 0;
+padding: 0;
+}
+dl#searchresults-found dt {
+display: inline;
+margin: 0;
+padding: 0;
+}
+dl#searchresults-found dd {
+display: inline;
+margin: 0;
+margin-left: 4px;
+padding: 0;
+}
+dl#searchresults-found dd.search_time:before {
+content: "(";
+}
+dl#searchresults-found dd.search_time:after {
+content: ")";
+}
+table.searchblock {
+width: 100%;
+margin: 0;
+padding: 0;
+border-collapse: collapse;
+}
+table.searchblock tr {
+margin: 0;
+padding: 0;
+background: #DAE0ED;
+}
+table.searchblock tr.resultrow1 {
+background: #D9D9D9;
+}
+table.searchblock tr.resultrow2 {
+background: #EFEFEF;
+}
+table.searchblock tr th {
+margin: 0;
+padding: 2px;
+text-align: left;
+}
+table.searchblock tr td {
+margin: 0;
+padding: 2px;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/stats/stats.css */
+
+table.itemstatistics {
+width: 100%;
+margin: 0;
+padding: 0;
+border-collapse: collapse;
+}
+table.itemstatistics tr th {
+margin: 0;
+padding: 2px;
+text-align: left;
+}
+table.itemstatistics tr td {
+margin: 0;
+padding: 2px;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/submit/submit.css */
+
+p#submitloginrequired-message {
+margin: 0 0 1em 0;
+padding: 0;
+}
+ul#submitloginrequired-navi {
+display: inline;
+margin: 0;
+padding: 0;
+}
+ul#submitloginrequired-navi:before {
+content: "[";
+}
+ul#submitloginrequired-navi:after {
+content: "]";
+}
+ul#submitloginrequired-navi li {
+display: inline;
+margin: 0 2px;
+padding: 0;
+}
+ul#submitloginrequired-navi li+li {
+margin: 0 2px 0 0;
+}
+ul#submitloginrequired-navi li+li:before {
+content: " | ";
+}
+form#submitstory dl dd ul.navi {
+list-style-type: none;
+display: inline;
+margin: 0;
+padding: 0;
+}
+form#submitstory dl dd ul.navi:before {
+content: "[";
+}
+form#submitstory dl dd ul.navi:after {
+content: "]";
+}
+form#submitstory dl dd ul.navi li {
+display: inline;
+margin: 0 2px;
+padding: 0;
+}
+form#submitstory_advanced dl dd ul.navi {
+list-style-type: none;
+display: inline;
+margin: 0;
+padding: 0;
+}
+form#submitstory_advanced dl dd ul.navi:before {
+content: "[";
+}
+form#submitstory_advanced dl dd ul.navi:after {
+content: "]";
+}
+form#submitstory_advanced dl dd ul.navi li {
+display: inline;
+margin: 0 2px;
+padding: 0;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/trackback/trackback.css */
+
+div#trackback {
+margin: 0;
+padding: 0;
+}
+div#trackback h3 {
+margin: 0 0 0.5em 0;
+padding: 0;
+font-size: 100%;
+font-weight: bold;
+}
+div#trackback div.block-trackback-content {
+margin: 0;
+padding: 0;
+border-bottom: 1px solid #E7E7E7;
+}
+div#trackback div.block-trackback-content dl {
+margin: 0 0 1em 0;
+padding: 0;
+}
+div#trackback div.block-trackback-content dl dt {
+display: inline;
+margin: 0;
+padding: 0;
+}
+div#trackback div.block-trackback-content dl dd {
+display: inline;
+margin: 0;
+padding: 0;
+}
+div#trackback p.trackback_comments_no_link {
+margin: 0 0 1em 0;
+padding: 0;
+}
+div.formattedcomment {
+margin: 0 0 1em 0;
+padding: 0;
+}
+div.formattedcomment ul.status {
+list-style-position: outside;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+div.formattedcomment ul.status li.title {
+margin: 0 0 0.5em 0;
+padding: 4px;
+border: 1px solid #E7E7E7;
+background: #F7F7F7;
+}
+div.formattedcomment ul.status li.trackback_date {
+margin: 0 0 0.5em 0;
+padding: 0;
+}
+div.formattedcomment p.trackback_excerpt_readmore {
+margin: 0 0 1em 0;
+padding: 0;
+}
+div.formattedcomment ul.navi {
+list-style-position: outside;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+div.formattedcomment ul.navi li.delete_option {
+display: inline;
+margin: 0;
+padding: 0;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/users/users.css */
+
+div.login-wrapper {
+width: 50%;
+margin: auto;
+}
+div.login-wrapper.remote-login-enabled {
+width: 95%;
+margin: auto;
+}
+div.standard-login-panel {
+width: 100%;
+}
+div.remote-login-panel {
+display: none;
+}
+div.standard-login-panel.remote-login-enabled,
+div.remote-login-panel.remote-login-enabled {
+display: block;
+width: 47%;
+margin-left:2%;
+float: left;
+}
+div.remote-login-panel p.message {
+margin: 0 0 1em;
+}
+div.remote-login-panel div.wrapper{
+width: 164px;
+margin: auto;
+}
+div.standard-login-panel label {
+margin: 0 1em;
+float: right;
+line-height: 1.8em;
+}
+div.standard-login-panel input,
+div.standard-login-panel select {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+width: 50%;
+float: right;
+height: 1.8em;
+}
+div.standard-login-panel input.submit {
+height: 28px;
+font-size: 12px;
+}
+div.standard-login-panel ul.navi {
+list-style-position: outside;
+list-style-type: none;
+margin: 1em 0 0;
+padding: 0;
+}
+div.standard-login-panel ul.navi li {
+margin: 0;
+padding: 0;
+text-align: center;
+}
+dl#profile-userprofile {
+overflow: hidden;
+margin: 0;
+padding: 0;
+}
+dl#profile-userprofile:after {
+content: "";
+display: block;
+clear: both;
+height: 1px;
+overflow: hidden;
+}
+* html dl#profile-userprofile {
+height: 1%;
+overflow: visible;
+}
+dl#profile-userprofile dt {
+float: left;
+clear: left;
+width: 25%;
+margin: 0 0 0.5em 0;
+padding: 0;
+}
+dl#profile-userprofile dd {
+float: left;
+width: 75%;
+margin: 0 0 0.5em 0;
+padding: 0;
+}
+dl#profile-userprofile dd#profile-user_photo {
+float: none;
+width: auto;
+margin-left: 25%;
+padding: 8px;
+}
+p.storyrow {
+margin: 0;
+padding: 0;
+}
+p.storyrow a {
+margin: 0 8px 0 0;
+padding: 0;
+}
+p.commentrow {
+margin: 0;
+padding: 0;
+}
+p.commentrow a {
+margin: 0 8px 0 0;
+padding: 0;
+}
+dl#profile-postingstats {
+margin: 0;
+padding: 0;
+}
+dl#profile-postingstats dt {
+float: left;
+clear: left;
+width: 25%;
+margin: 0 0 0.5em 0;
+padding: 0;
+}
+dl#profile-postingstats dd {
+float: left;
+width: 75%;
+margin: 0 0 0.5em 0;
+padding: 0;
+}
+ul#profile-all_postings_by {
+list-style-position: outside;
+list-style-type: none;
+clear: left;
+margin: 0;
+padding: 1em 0 0 0;
+}
+ul#profile-all_postings_by li {
+margin: 0;
+padding: 0;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/admin/common.css */
+
+div#admin-instructions {
+overflow: hidden;
+margin: 0 0 1em 0;
+padding: 0;
+}
+div#admin-instructions:after {
+content: "";
+display: block;
+clear: both;
+height: 1px;
+overflow: hidden;
+}
+* html div#admin-instructions {
+height: 1%;
+overflow: visible;
+}
+div#admin-instructions img {
+float: left;
+margin: 0 0 8px 0;
+margin-right: 8px;
+padding: 0;
+width: 48px;
+height: 48px;
+}
+div#admin-instructions p#menu_fields:before {
+content: "[";
+}
+div#admin-instructions p#menu_fields:after {
+content: "]";
+}
+div#admin-instructions div {
+margin: 0;
+padding: 0;
+}
+.admin_basic {
+padding: 0.5em 2em;
+}
+.form_block {
+margin: 0;
+padding: 0;
+}
+.form_block:after {
+content: "";
+display: block;
+clear: both;
+height: 1px;
+overflow: hidden;
+}
+.wide {
+width: 98%;
+}
+.separator {
+display: none;
+}
+.size1  { width:  60px; }
+.size2  { width: 120px; }
+.size3  { width: 180px; }
+.size4  { width: 240px; }
+.size5  { width: 300px; }
+.size6  { width: 360px; }
+.size7  { width: 420px; }
+.size8  { width: 480px; }
+.size9  { width: 540px; }
+.size10 { width: 600px; }
+table#admin-permissions {
+margin: 0 0 0.5em 0;
+}
+table#admin-permissions th {
+padding: 4px;
+border: 1px solid #ffffff;
+background: #dae0ed;
+text-align: left;
+}
+table#admin-permissions td {
+padding: 4px;
+border: 1px solid #ffffff;
+background: #f7f7f7;
+font-weight: bold;
+text-align: center;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/admin/block.css */
+
+form#admin-blockeditor fieldset {
+margin: 0 0 1em 0;
+}
+form#admin-blockeditor h3 {
+margin: 0 0 0.5em 0;
+padding: 0.5em 0 0 0;
+border-top: 1px solid #CCCCCC;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/admin/envcheck.css */
+
+.pathtext {
+font-size:11px;
+color:#666;
+}
+.pathtext-status {
+text-align:right;
+white-space:nowrap;
+}
+.yes, .iswriteable {
+font-weight: bold;
+color: #46882b;
+}
+.no, .notok, .notwriteable {
+font-weight: bold;
+color: #cc0000;
+}
+#panel_phpinfo {
+padding:5px;
+width:600px;
+margin: auto;
+text-align:center;
+}
+#toggle_phpinfo {
+padding:5px;
+width:200px;
+margin: auto;
+text-align:center;
+border:solid 1px #c3c3c3;
+}
+#panel_phpinfo {
+padding:50px;
+display:none;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/admin/group.css */
+
+form#admin-groupeditor fieldset {
+margin: 0 0 1em 0;
+}
+form#admin-groupeditor fieldset.admingroup,
+form#admin-groupeditor fieldset.securitygroups,
+form#admin-groupeditor fieldset.rights {
+padding: 0.5em 0 0 0;
+border-top: 1px solid #CCCCCC;
+}
+form#admin-groupeditor dl dd.description {
+margin: 0 0 0.5em 0;
+}
+form#admin-groupeditor dl dd table {
+margin: 0;
+padding: 0;
+border-collapse: collapse;
+}
+form#admin-groupeditor dl dd table tr {
+margin: 0;
+padding: 0;
+}
+form#admin-groupeditor dl dd table tr td {
+margin: 0;
+padding: 2px;
+}
+form#admin-groupmembers fieldset {
+padding: 8px;
+border: 1px solid #CCCCCC;
+background: #EFEFEF;
+}
+form#admin-groupmembers dl {
+float: left;
+width: 30%;
+margin: 0 0 1em 0;
+padding: 0;
+}
+form#admin-groupmembers dl dt {
+margin: 0;
+padding: 0;
+text-align: center;
+}
+form#admin-groupmembers dl dd {
+margin: 0;
+padding: 0;
+}
+form#admin-groupmembers dl dd select {
+width: 100%;
+}
+form#admin-groupmembers ul.move {
+list-style-position: outside;
+list-style-type: none;
+float: left;
+width: 40%;
+margin: 3.5em 0 0 0;
+padding: 0;
+text-align: center;
+}
+form#admin-groupmembers ul.move li {
+margin: 0 0 0.5em 0;
+padding: 0;
+}
+form#admin-groupmembers ul.submit {
+clear: left;
+text-align: center;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/admin/lists.css */
+
+form.admin-topmenu {
+margin: 0 0 1em 0;
+text-align: center;
+}
+form.admin-topmenu ul.filter {
+display: inline;
+margin: 0 auto;
+padding: 0;
+}
+form.admin-topmenu ul.filter li {
+display: inline;
+margin: 0;
+padding: 0;
+}
+form.admin-topmenu dl {
+display: inline;
+margin: 0 auto;
+padding: 0;
+}
+form.admin-topmenu dl dt {
+display: inline;
+margin: 0;
+padding: 0;
+}
+form.admin-topmenu dl dd {
+display: inline;
+margin: 0;
+padding: 0;
+}
+form.admin-topmenu ul.submit {
+display: inline;
+margin: 0;
+padding: 0;
+}
+form.admin-topmenu ul.submit li {
+display: inline;
+margin: 0;
+padding: 0;
+}
+table.admin-list {
+width: 100%;
+margin: 0;
+padding: 0;
+border-collapse: collapse;
+}
+table.admin-list tr {
+margin: 0;
+padding: 0;
+background: #DAE0ED;
+}
+table.admin-list tr.admin-listitem1 {
+background: #EFEFEF;
+}
+table.admin-list tr.admin-listitem2 {
+background: #D9D9D9;
+}
+table.admin-list tr.admin-listitem_rollover {
+background: #FFFF8F;
+}
+table.admin-list tr th {
+margin: 0;
+padding: 2px;
+text-align: left;
+}
+table.admin-list tr td {
+margin: 0;
+padding: 2px;
+}
+table.admin-list tr td img {
+border: none;
+}
+ul.admin-list-navi {
+list-style-position: outside;
+list-style-type: none;
+margin: 0.5em 0 0 0;
+padding: 0;
+}
+ul.admin-list-navi li {
+display: inline;
+}
+p.admin-list-message {
+margin: 1em 0 0 0;
+padding: 0;
+text-align: center;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/admin/commandcontrol.css */
+
+ul.admin-commandcontrol {
+list-style-position: outside;
+list-style-type: none;
+overflow: hidden;
+margin: 0;
+padding: 0;
+}
+ul.admin-commandcontrol:after {
+content: "";
+display: block;
+clear: both;
+height: 1px;
+overflow: hidden;
+}
+* html ul.admin-commandcontrol {
+height: 1%;
+overflow: visible;
+}
+ul.admin-commandcontrol li {
+float: left;
+width: 20%;
+height: 8em;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+ul.admin-commandcontrol li a {
+display: block;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/admin/plugins.css */
+
+form#admin-editor div#admin-instructions ul {
+margin: 1em 0 0 0;
+}
+form#admin-editor div#admin-instructions ul:before {
+content: "";
+}
+form#admin-editor div#admin-instructions ul:after {
+content: "";
+}
+form#admin-editor div#admin-instructions ul li {
+margin: 0;
+}
+#admin-editor dt#title {
+display:     block;
+font-size:   13px;
+font-weight: bold;
+position:    relative;
+top:         10px;
+}
+#admin-editor input#close {
+width: 150px;
+}
+b.notbold {
+font-weight: normal;
+}
+b.status_red {
+display:     inline;
+color:       #a40000;
+}
+b.status_orange {
+display:     inline;
+color:       #b25000;
+}
+b.status_green {
+display:     inline;
+color:       #3d7805;
+}
+b.status_black {
+display:     inline;
+color:       black;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/admin/story.css */
+
+div#text_editor dl {
+margin-bottom: 0;
+}
+div#html_editor dl {
+margin-bottom: 0;
+}
+form#admin-storyeditor {
+width: 99%;
+margin-right: auto;
+margin-left: auto;
+}
+form#admin-storyeditor fieldset {
+margin: 0 0 1em 0;
+padding: 8px;
+border: 1px solid #CCCCCC;
+}
+form#admin-storyeditor fieldset legend {
+display: inline;
+padding: 2px 4px;
+}
+form#admin-storyeditor h3 {
+margin: 0 0 0.5em 0;
+padding: 0.5em 0 0 0;
+}
+form#admin-storyeditor_advanced {
+width: 99%;
+margin-top: 1em;
+margin-right: auto;
+margin-left: auto;
+}
+form#admin-storyeditor_advanced fieldset {
+margin: 0 0 1em 0;
+padding: 8px;
+border: 1px solid #CCCCCC;
+}
+form#admin-storyeditor_advanced fieldset#admin-storyeditor_advanced-editor {
+margin: 0;
+padding: 0;
+border: 0 none #CCCCCC;
+}
+form#admin-storyeditor_advanced div#text_editor,
+form#admin-storyeditor_advanced div#html_editor {
+margin: 0 0 1em 0;
+padding: 8px;
+border: 1px solid #000000;
+}
+form#admin-storyeditor_advanced div#text_editor textarea,
+form#admin-storyeditor_advanced div#html_editor textarea {
+width: 98%;
+}
+form#admin-storyeditor_advanced fieldset legend {
+display: inline;
+padding: 2px 4px;
+}
+form#admin-storyeditor_advanced fieldset#admin-storyeditor_advanced-editor legend {
+display: none;
+padding: 0;
+}
+form#admin-storyeditor_advanced fieldset#admin-storyeditor_advanced-editor dl dt {
+float: none;
+width: auto;
+margin: 0 0 0.5em 0;
+padding: 0;
+}
+form#admin-storyeditor_advanced fieldset#admin-storyeditor_advanced-editor dl dd {
+float: none;
+width: auto;
+margin: 0 0 0.5em 0;
+padding: 0;
+}
+form#admin-storyeditor_advanced h3 {
+margin: 0 0 0.5em 0;
+padding: 0.5em 0 0 0;
+}
+form#admin-storyeditor_advanced dl dd ul.navi {
+margin: 0;
+padding: 0;
+}
+form#admin-storyeditor_advanced dl dd ul.navi li {
+display: inline;
+margin: 0;
+padding: 0;
+}
+div#preview {
+margin: 1em 0 0 0;
+padding: 0;
+border-top: 1px solid #E7E7E7;
+}
+div#preview div.storytext {
+margin: 2em 0 0 0;
+padding: 0;
+border-bottom: none;
+}
+span.story_stats {
+display: inline-block;
+float: left;
+margin-right: 2em;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/admin/topic.css */
+
+ul#admin-topiclist {
+list-style-position: outside;
+list-style-type: none;
+overflow: hidden;
+margin: 0;
+padding: 0;
+}
+ul#admin-topiclist:after {
+content: "";
+display: block;
+clear: both;
+height: 1px;
+overflow: hidden;
+}
+* html ul#admin-topiclist {
+height: 1%;
+overflow: visible;
+}
+ul#admin-topiclist li {
+float: left;
+width: 20%;
+height: 8em;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+ul#admin-topiclist li a {
+display: block;
+}
+form#admin-topiceditor fieldset {
+margin: 0 0 1em 0;
+}
+form#admin-topiceditor h3 {
+margin: 0 0 0.5em 0;
+padding: 0.5em 0 0 0;
+border-top: 1px solid #CCCCCC;
+}
+.admin-topic-image {
+margin: 0 5px 0 0;
+vertical-align: middle;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/admin/trackback.css */
+
+p.trackback-message {
+margin: 0 0 1em 0;
+padding: 0;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/admin/user.css */
+
+form#admin-edituser dl dd.user_photo {
+float: left;
+width: 75%;
+margin: 0 0 0.5em 0;
+margin-left: 25%;
+padding: 0;
+}
+form#admin-edituser dl dd p.groupinstructions {
+margin: 0 0 0.5em 0;
+}
+form#admin-batchdelete {
+margin: 1em 0 0 0;
+}
+form#admin-batchdelete ul {
+margin: 0;
+padding: 0;
+}
+form#admin-batchdelete ul:before {
+content: "";
+}
+form#admin-batchdelete ul:after {
+content: "";
+}
+form#admin-batchdelete ul li {
+display: block;
+margin: 0;
+padding: 0;
+}
+form#admin-batchdelete ul.submit {
+margin: 0 0 1em 0;
+padding: 0;
+}
+form#admin-batchdelete dl dt input.radio {
+margin: 0 4px 0 0;
+}
+ul#reminder-submit {
+list-style: none outside;
+}
+ul#reminder-submit,
+ul#reminder-submit li {
+margin-left: 0;
+margin-right: 0;
+padding: 0;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/admin/configuration.css */
+
+#geeklog_config_editor td.block-featured-left {
+width: 18%;
+}
+#search-configuration {
+width: 90%;
+}
+.block-config,
+#search-configuration-container {
+margin: 0 0 0.5em;
+padding: 8px 0;
+text-align: left;
+}
+.block-config-content {
+padding-left: 5px;
+}
+.configoption {
+list-style: none outside;
+color: #999;
+margin: 0;
+padding: 0;
+}
+.configoption_off {
+list-style: none outside;
+color: #333;
+}
+.configoption a {
+}
+.configoption a:hover {
+}
+.inputTable {
+width: 100%;
+margin: 0;
+padding: 0;
+}
+.config_label {
+float: left;
+width: 35%;
+padding: .5em 0;
+}
+.restore {
+padding: .5em 0;
+}
+.config_input {
+float: left;
+width: 53%;
+}
+.config_name {
+clear: left;
+margin: 5px 0;
+padding: 5px;
+}
+.config_name input[type="text"],
+.config_name textarea {
+width: 53%;
+}
+.config_name select {
+width: 54.5%;
+max-width: none;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/plugin/japanize.css */
+
+div#plugin-japanize fieldset {
+padding: 8px;
+border: 1px solid #CCCCCC;
+}
+div#plugin-japanize fieldset legend {
+padding: 2px 4px;
+display: inline;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/plugin/sitecalendar.css */
+
+table.mycalTitle {
+width: auto;
+margin: 0 auto;
+padding: 0;
+border-collapse: collapse;
+background: #B0C4DE;
+}
+table.mycalTitle tr td {
+margin: 0;
+padding: 0;
+border: 1px solid #B0C4DE;
+background: #FFFFFF;
+font-size: 90%;
+font-weight: normal;
+text-align: center;
+}
+table.mycalTitle tr td.mycalTitle {
+font-weight: bold;
+}
+table.mycalTitle tr td.mycalDateField {
+background: #FFFFFF;
+}
+table.mycalTitle tr td.mycalEventHighlight {
+background: #8FBC8F;
+}
+table.mycalTitle tr td.mycalTodayHighlight {
+background: #EEDD82;
+}
+table.mycalTitle tr td.mycalNextMonth {
+background: #DCDCDC;
+}
+table.mycalTitle tr td.mycalActiveHighlight {
+background: #EDEDED;
+}
+table.mycalTitle tr td.mycalTodayActiveHighlight {
+background: #EEDD82;
+}
+table.mycalTitle tr td.mycalTodayEventHighlight {
+background: #EEDD82;
+}
+table.mycalTitle tr td a b {
+font-weight: normal;
+}
+table.mycalTitle tr td table {
+margin: 0;
+padding: 0;
+border-collapse: collapse;
+}
+table.mycalTitle tr td table tr td {
+background: #CAD8EB;
+}
+table.mycalTitle tr td table tr td.mycalTopTitle {
+margin: 0;
+padding: 0;
+font-weight: bold;
+text-align: center;
+}
+table.mycalTitle+table tr td {
+text-align: center;
+}
+
+/* /usr/www/users/geeklog/layout/modern_curve/css/tooltips/tooltips.css */
+
+a.gl-tooltip {
+border-bottom: 1px dotted #000000;
+color: #000000;
+outline: none;
+text-decoration: none;
+position: relative;
+}
+a.gl-tooltip span {
+margin-left: -999em;
+position: absolute;
+text-align: left;
+width: 250px;
+}
+a.gl-tooltip:hover span {
+border-radius: 8px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+box-shadow: 2px 2px 8px #666;
+-webkit-box-shadow: 2px 2px 8px #666;
+-moz-box-shadow: 2px 2px 8px #666;
+font-size: 1em;
+text-align: left;
+white-space:normal;
+font-family: Calibri, Tahoma, Geneva, sans, sans-serif;
+position: absolute;
+left: 2.2em;
+top: 2.2em;
+z-index: 99;
+margin-left: 0;
+width: 250px;
+}
+a.gl-tooltip:hover img.icon {
+border: 0;
+margin: -15px 0 0;
+margin-left: -51px;
+float: left;
+position: absolute;
+}
+a.gl-tooltip img#gl-tooltip-icon {
+border: 0;
+}
+a.gl-tooltip:hover em {
+font-family: Candara, Tahoma, Geneva, sans, sans-serif;
+font-size: 1.2em;
+font-weight: bold;
+display: block;
+padding: 0.2em 0 0.6em 0.4em;
+}
+span.classic     { padding: 0.8em 1em; }
+span.custom      { padding: 0.5em 0.8em 0.8em 2em; }
+* html a:hover   { background: transparent; }
+span.classic     { background: #EEEEEC; border: 2px solid #555753; }
+span.critical    { background: #F5F0F0; border: 2px solid #A40000; }
+span.help        { background: #EDF0F2; border: 2px solid #204A87; }
+span.info        { background: #EDF0F2; border: 2px solid #204A87; }
+span.warning     { background: #FCF7EF; border: 2px solid #CE5C00; font-weight: normal; color: black; }
+span.critical em { color: #A40000; }
+span.help     em { color: #204A87; }
+span.info     em { color: #204A87; }
+span.warning  em { color: #CE5C00; }
