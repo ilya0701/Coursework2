@@ -5,8 +5,8 @@
                    height="764"
                    width="1391"
                    sizemode="normal"
-                   screenX="22"
-                   screenY="61" />
+                   screenX="23"
+                   screenY="62" />
   <RDF:Description RDF:about="chrome://browser/content/browser.xul#navigator-toolbox"
                    iconsize="small" />
   <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-title"
@@ -17,8 +17,4 @@
     <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-box"/>
     <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-title"/>
   </RDF:Description>
-  <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-box"
-                   sidebarcommand=""
-                   width=""
-                   src="" />
 </RDF:RDF>

@@ -543,3 +543,10 @@ Successfully activated service 'com.ubuntu.sso'
   return super(MainContext, self).iteration(may_block)
 
 (zeitgeist-datahub:2068): Gtk-WARNING **: Attempting to read the recently used resources file at `/home/ilya/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/ilya/.local/share/recently-used.xbel': Permission denied.
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/ilya/.cache/oneconf/6b3d0c1cbe524e70059ed16c5452781e/other_hosts'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
